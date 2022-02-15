@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee45319247bb4b968458cad4d3d7026e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ee45319247bb4b968458cad4d3d7026e" ></div>
+        
+</body>
+<script>    
+    
+            var map_ee45319247bb4b968458cad4d3d7026e = L.map(
+                "map_ee45319247bb4b968458cad4d3d7026e",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b4d9f9714ee9402fa8e783288eb437ab = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var marker_3cb124b95ecd49ba932d9cf7c27e2477 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_a60a9e5ff2814e7f8feb86fb1ff2c6da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cb124b95ecd49ba932d9cf7c27e2477.setIcon(icon_a60a9e5ff2814e7f8feb86fb1ff2c6da);
+        
+    
+        var popup_4c1f217072934e1a8cadea0a5ab2bcc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba1ac43294e49cf903adb7ab37b7e66 = $(`<div id="html_5ba1ac43294e49cf903adb7ab37b7e66" style="width: 100.0%; height: 100.0%;">Ім'я: Russ Tamblyn, Юзернейм: @RussTamblyn</div>`)[0];
+            popup_4c1f217072934e1a8cadea0a5ab2bcc4.setContent(html_5ba1ac43294e49cf903adb7ab37b7e66);
+        
+
+        marker_3cb124b95ecd49ba932d9cf7c27e2477.bindPopup(popup_4c1f217072934e1a8cadea0a5ab2bcc4)
+        ;
+
+        
+    
+    
+            var marker_c7fd69aea4814a97a34c373e659ced0d = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_46e39096fc9245329a0ba6ab90c315b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7fd69aea4814a97a34c373e659ced0d.setIcon(icon_46e39096fc9245329a0ba6ab90c315b5);
+        
+    
+        var popup_4ecd85857ca94dc2a2275cbd3b90fa8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b538c12accbd4c439e8fd5643c0cf8ee = $(`<div id="html_b538c12accbd4c439e8fd5643c0cf8ee" style="width: 100.0%; height: 100.0%;">Ім'я: Nate Silver, Юзернейм: @NateSilver538</div>`)[0];
+            popup_4ecd85857ca94dc2a2275cbd3b90fa8f.setContent(html_b538c12accbd4c439e8fd5643c0cf8ee);
+        
+
+        marker_c7fd69aea4814a97a34c373e659ced0d.bindPopup(popup_4ecd85857ca94dc2a2275cbd3b90fa8f)
+        ;
+
+        
+    
+    
+            var marker_869721319f4341faaff0585159f18740 = L.marker(
+                [47.2495798, -122.4398746],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e7ed22f768e4498da591e4f9f708b24f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_869721319f4341faaff0585159f18740.setIcon(icon_e7ed22f768e4498da591e4f9f708b24f);
+        
+    
+        var popup_277432bc4b0c4cda82d69dd09df823a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d26857e1afa451f99fcd8fb7caab62e = $(`<div id="html_0d26857e1afa451f99fcd8fb7caab62e" style="width: 100.0%; height: 100.0%;">Ім'я: Sadie Hartmann (Mother Horror), Юзернейм: @SadieHartmann</div>`)[0];
+            popup_277432bc4b0c4cda82d69dd09df823a7.setContent(html_0d26857e1afa451f99fcd8fb7caab62e);
+        
+
+        marker_869721319f4341faaff0585159f18740.bindPopup(popup_277432bc4b0c4cda82d69dd09df823a7)
+        ;
+
+        
+    
+    
+            var marker_49524ff27b91401494b2775d5bfc6b20 = L.marker(
+                [38.057865, -82.9279432],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_7ebf6f3197e84649bb674fd33825e689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49524ff27b91401494b2775d5bfc6b20.setIcon(icon_7ebf6f3197e84649bb674fd33825e689);
+        
+    
+        var popup_90b77b49a6b0435c8428c9ee85fb5e09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84e9f694c49b46bab72f3c6516b00822 = $(`<div id="html_84e9f694c49b46bab72f3c6516b00822" style="width: 100.0%; height: 100.0%;">Ім'я: jen.hardy, Юзернейм: @jenrinehart5</div>`)[0];
+            popup_90b77b49a6b0435c8428c9ee85fb5e09.setContent(html_84e9f694c49b46bab72f3c6516b00822);
+        
+
+        marker_49524ff27b91401494b2775d5bfc6b20.bindPopup(popup_90b77b49a6b0435c8428c9ee85fb5e09)
+        ;
+
+        
+    
+    
+            var marker_d5cfb81be7174fe1a2cc03a7c9fb88fc = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_ddbcca65173844d6a4db5b7e31a67a40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5cfb81be7174fe1a2cc03a7c9fb88fc.setIcon(icon_ddbcca65173844d6a4db5b7e31a67a40);
+        
+    
+        var popup_f579e1671583442897073ec2fced9681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d7e7881a294ac282df82a2c3f9d5cb = $(`<div id="html_06d7e7881a294ac282df82a2c3f9d5cb" style="width: 100.0%; height: 100.0%;">Ім'я: Joe Biden, Юзернейм: @JoeBiden</div>`)[0];
+            popup_f579e1671583442897073ec2fced9681.setContent(html_06d7e7881a294ac282df82a2c3f9d5cb);
+        
+
+        marker_d5cfb81be7174fe1a2cc03a7c9fb88fc.bindPopup(popup_f579e1671583442897073ec2fced9681)
+        ;
+
+        
+    
+    
+            var marker_38e4b5349eb641729790261ca1a36569 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_3233ddea4e1b4c4b986a5ad8707b7b54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38e4b5349eb641729790261ca1a36569.setIcon(icon_3233ddea4e1b4c4b986a5ad8707b7b54);
+        
+    
+        var popup_1cb34182210a4d46acc3372c0420a79e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54ffc2fccc9d47688098e8fd02ea952c = $(`<div id="html_54ffc2fccc9d47688098e8fd02ea952c" style="width: 100.0%; height: 100.0%;">Ім'я: Kamala Harris, Юзернейм: @KamalaHarris</div>`)[0];
+            popup_1cb34182210a4d46acc3372c0420a79e.setContent(html_54ffc2fccc9d47688098e8fd02ea952c);
+        
+
+        marker_38e4b5349eb641729790261ca1a36569.bindPopup(popup_1cb34182210a4d46acc3372c0420a79e)
+        ;
+
+        
+    
+    
+            var marker_4564cd4a1d174214aa171e37e3e7bf58 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_9fae2847abb04dbf9712a4cd9313ffbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4564cd4a1d174214aa171e37e3e7bf58.setIcon(icon_9fae2847abb04dbf9712a4cd9313ffbf);
+        
+    
+        var popup_2d75cd5f08a547638188800d1caf47fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97098e33b0dd476388a75666edb850e1 = $(`<div id="html_97098e33b0dd476388a75666edb850e1" style="width: 100.0%; height: 100.0%;">Ім'я: FiveThirtyEight, Юзернейм: @FiveThirtyEight</div>`)[0];
+            popup_2d75cd5f08a547638188800d1caf47fb.setContent(html_97098e33b0dd476388a75666edb850e1);
+        
+
+        marker_4564cd4a1d174214aa171e37e3e7bf58.bindPopup(popup_2d75cd5f08a547638188800d1caf47fb)
+        ;
+
+        
+    
+    
+            var marker_02172488aff8491b8fa3ed65953145e9 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_ca43fd21d6724ca69c42ca9e1e68795a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02172488aff8491b8fa3ed65953145e9.setIcon(icon_ca43fd21d6724ca69c42ca9e1e68795a);
+        
+    
+        var popup_d51f01ebf37a4fac937a97318c508205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68404d7d9bc040818d531377d0b2492c = $(`<div id="html_68404d7d9bc040818d531377d0b2492c" style="width: 100.0%; height: 100.0%;">Ім'я: Dan Rather, Юзернейм: @DanRather</div>`)[0];
+            popup_d51f01ebf37a4fac937a97318c508205.setContent(html_68404d7d9bc040818d531377d0b2492c);
+        
+
+        marker_02172488aff8491b8fa3ed65953145e9.bindPopup(popup_d51f01ebf37a4fac937a97318c508205)
+        ;
+
+        
+    
+    
+            var marker_79b94bf3e8cc4bc2a434d898b8bc2f0a = L.marker(
+                [41.31611085, -74.12629189225156],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_ed93d092d5fc4ffeb6a022a7368f6fa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79b94bf3e8cc4bc2a434d898b8bc2f0a.setIcon(icon_ed93d092d5fc4ffeb6a022a7368f6fa2);
+        
+    
+        var popup_65fe2d4e509546fb9e292e3914b59c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a928c0e38fd04bb2bec4eca0b1f6b6c8 = $(`<div id="html_a928c0e38fd04bb2bec4eca0b1f6b6c8" style="width: 100.0%; height: 100.0%;">Ім'я: Chris Swartout, Юзернейм: @chrisswartout</div>`)[0];
+            popup_65fe2d4e509546fb9e292e3914b59c14.setContent(html_a928c0e38fd04bb2bec4eca0b1f6b6c8);
+        
+
+        marker_79b94bf3e8cc4bc2a434d898b8bc2f0a.bindPopup(popup_65fe2d4e509546fb9e292e3914b59c14)
+        ;
+
+        
+    
+    
+            var marker_8dd27e5db3134ce59403488c340e7cc7 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_327410c0c5e7408eb1782f4640d20199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8dd27e5db3134ce59403488c340e7cc7.setIcon(icon_327410c0c5e7408eb1782f4640d20199);
+        
+    
+        var popup_6a48e8874e634255813f8d1eef9a61df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90ae1a470aae4d53accbb7bf834e62d6 = $(`<div id="html_90ae1a470aae4d53accbb7bf834e62d6" style="width: 100.0%; height: 100.0%;">Ім'я: Mike Hale, Юзернейм: @mikehalenyt</div>`)[0];
+            popup_6a48e8874e634255813f8d1eef9a61df.setContent(html_90ae1a470aae4d53accbb7bf834e62d6);
+        
+
+        marker_8dd27e5db3134ce59403488c340e7cc7.bindPopup(popup_6a48e8874e634255813f8d1eef9a61df)
+        ;
+
+        
+    
+    
+            var marker_d1dcd61a58af48b59cb6d44265449c58 = L.marker(
+                [40.6526006, -73.9497211],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_47406e7499014a42a2d7b3f2fc72f57f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1dcd61a58af48b59cb6d44265449c58.setIcon(icon_47406e7499014a42a2d7b3f2fc72f57f);
+        
+    
+        var popup_e89d4c9862904eaaba45502602a77f27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f814e09f27c64ea79bf75bdbdc27c21c = $(`<div id="html_f814e09f27c64ea79bf75bdbdc27c21c" style="width: 100.0%; height: 100.0%;">Ім'я: Kevin Shay, Юзернейм: @kshay</div>`)[0];
+            popup_e89d4c9862904eaaba45502602a77f27.setContent(html_f814e09f27c64ea79bf75bdbdc27c21c);
+        
+
+        marker_d1dcd61a58af48b59cb6d44265449c58.bindPopup(popup_e89d4c9862904eaaba45502602a77f27)
+        ;
+
+        
+    
+    
+            var marker_cb1e449e1c35486a9092a35e62fd49d8 = L.marker(
+                [52.865196, -7.9794599],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_3a0c8bf39318472abba2b579191f62c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb1e449e1c35486a9092a35e62fd49d8.setIcon(icon_3a0c8bf39318472abba2b579191f62c7);
+        
+    
+        var popup_e4c4046abebf41c981a6d8568f1d5645 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acb003021bf246b98e4e48042566e6ac = $(`<div id="html_acb003021bf246b98e4e48042566e6ac" style="width: 100.0%; height: 100.0%;">Ім'я: David Mitchell, Юзернейм: @david_mitchell</div>`)[0];
+            popup_e4c4046abebf41c981a6d8568f1d5645.setContent(html_acb003021bf246b98e4e48042566e6ac);
+        
+
+        marker_cb1e449e1c35486a9092a35e62fd49d8.bindPopup(popup_e4c4046abebf41c981a6d8568f1d5645)
+        ;
+
+        
+    
+    
+            var marker_89550457348e41a8b2ed128ef5e8e532 = L.marker(
+                [44.9668477, -71.6659257],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_2c55c5c5ca3c40849fd1aacc80326d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89550457348e41a8b2ed128ef5e8e532.setIcon(icon_2c55c5c5ca3c40849fd1aacc80326d3b);
+        
+    
+        var popup_24ed5b1aa965430989e119898976e8fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb84ad51d42a4edaa54d74ebf204f598 = $(`<div id="html_eb84ad51d42a4edaa54d74ebf204f598" style="width: 100.0%; height: 100.0%;">Ім'я: The Lincoln Project, Юзернейм: @ProjectLincoln</div>`)[0];
+            popup_24ed5b1aa965430989e119898976e8fd.setContent(html_eb84ad51d42a4edaa54d74ebf204f598);
+        
+
+        marker_89550457348e41a8b2ed128ef5e8e532.bindPopup(popup_24ed5b1aa965430989e119898976e8fd)
+        ;
+
+        
+    
+    
+            var marker_090d8787d5bf4c2889babaa3d7981380 = L.marker(
+                [34.5708167, -105.993007],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_8d7120948d774e5eb879af36b80d19cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_090d8787d5bf4c2889babaa3d7981380.setIcon(icon_8d7120948d774e5eb879af36b80d19cc);
+        
+    
+        var popup_8320a8c391214370afaa98b2dc3ac228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d34446c691f647bb893c466c7bed45f3 = $(`<div id="html_d34446c691f647bb893c466c7bed45f3" style="width: 100.0%; height: 100.0%;">Ім'я: Metawitches.com, Юзернейм: @metawitches</div>`)[0];
+            popup_8320a8c391214370afaa98b2dc3ac228.setContent(html_d34446c691f647bb893c466c7bed45f3);
+        
+
+        marker_090d8787d5bf4c2889babaa3d7981380.bindPopup(popup_8320a8c391214370afaa98b2dc3ac228)
+        ;
+
+        
+    
+    
+            var marker_91b14e2e63e345ddb161ee4cc6ebc955 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_1340d0858e8c48b5b5feb1966ac50d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91b14e2e63e345ddb161ee4cc6ebc955.setIcon(icon_1340d0858e8c48b5b5feb1966ac50d3b);
+        
+    
+        var popup_bea56e4790974297a63345e1de143339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a968757b046e4f2aa13ad3ae915d6078 = $(`<div id="html_a968757b046e4f2aa13ad3ae915d6078" style="width: 100.0%; height: 100.0%;">Ім'я: Matthew Rhys, Юзернейм: @MatthewRhys</div>`)[0];
+            popup_bea56e4790974297a63345e1de143339.setContent(html_a968757b046e4f2aa13ad3ae915d6078);
+        
+
+        marker_91b14e2e63e345ddb161ee4cc6ebc955.bindPopup(popup_bea56e4790974297a63345e1de143339)
+        ;
+
+        
+    
+    
+            var marker_f8cdaf03c51a4626a0159677045fa23c = L.marker(
+                [43.7009358, 7.2683912],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e63c9c153eea438084a7569d15bcf549 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8cdaf03c51a4626a0159677045fa23c.setIcon(icon_e63c9c153eea438084a7569d15bcf549);
+        
+    
+        var popup_dd8bcd0e230e4b68a3e934b84f4bdec7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0289d9b338654fbdbf09d051f747b5d6 = $(`<div id="html_0289d9b338654fbdbf09d051f747b5d6" style="width: 100.0%; height: 100.0%;">Ім'я: Mark Ruffalo, Юзернейм: @MarkRuffalo</div>`)[0];
+            popup_dd8bcd0e230e4b68a3e934b84f4bdec7.setContent(html_0289d9b338654fbdbf09d051f747b5d6);
+        
+
+        marker_f8cdaf03c51a4626a0159677045fa23c.bindPopup(popup_dd8bcd0e230e4b68a3e934b84f4bdec7)
+        ;
+
+        
+    
+    
+            var marker_bfc0252bee9840c4950d66654f625ffe = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_49049258c95f46fa8386d89d86afa0cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfc0252bee9840c4950d66654f625ffe.setIcon(icon_49049258c95f46fa8386d89d86afa0cd);
+        
+    
+        var popup_b6d93b65759442b8a87aeff11c526c95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a32525c57c4fca86199e774620c1da = $(`<div id="html_07a32525c57c4fca86199e774620c1da" style="width: 100.0%; height: 100.0%;">Ім'я: Alafair Burke, Юзернейм: @alafairburke</div>`)[0];
+            popup_b6d93b65759442b8a87aeff11c526c95.setContent(html_07a32525c57c4fca86199e774620c1da);
+        
+
+        marker_bfc0252bee9840c4950d66654f625ffe.bindPopup(popup_b6d93b65759442b8a87aeff11c526c95)
+        ;
+
+        
+    
+    
+            var marker_52f785f9236e4a98ac2acc565640e391 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_27932d7ccdce4452b29e90783cc84f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52f785f9236e4a98ac2acc565640e391.setIcon(icon_27932d7ccdce4452b29e90783cc84f93);
+        
+    
+        var popup_31883928b20d4c619963faaea77a61ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f86571c3d834143a3d52c421f761939 = $(`<div id="html_4f86571c3d834143a3d52c421f761939" style="width: 100.0%; height: 100.0%;">Ім'я: Mika Brzezinski, Юзернейм: @morningmika</div>`)[0];
+            popup_31883928b20d4c619963faaea77a61ee.setContent(html_4f86571c3d834143a3d52c421f761939);
+        
+
+        marker_52f785f9236e4a98ac2acc565640e391.bindPopup(popup_31883928b20d4c619963faaea77a61ee)
+        ;
+
+        
+    
+    
+            var marker_d0fb3723adbc4120b0f61ccc38c6635c = L.marker(
+                [53.3497645, -6.2602732],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_66b073fd71124080aefc04b787a1b6d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d0fb3723adbc4120b0f61ccc38c6635c.setIcon(icon_66b073fd71124080aefc04b787a1b6d1);
+        
+    
+        var popup_4ccf65f94e364b3a960b42a11473dd5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430c592a489b454aaaa1e127c7d75ff5 = $(`<div id="html_430c592a489b454aaaa1e127c7d75ff5" style="width: 100.0%; height: 100.0%;">Ім'я: John Connolly, Юзернейм: @jconnollybooks</div>`)[0];
+            popup_4ccf65f94e364b3a960b42a11473dd5b.setContent(html_430c592a489b454aaaa1e127c7d75ff5);
+        
+
+        marker_d0fb3723adbc4120b0f61ccc38c6635c.bindPopup(popup_4ccf65f94e364b3a960b42a11473dd5b)
+        ;
+
+        
+    
+    
+            var marker_1c88061d6e604905b6dbc1c8fbbb5370 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_5797ebb61cd2423fb673754266702f71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c88061d6e604905b6dbc1c8fbbb5370.setIcon(icon_5797ebb61cd2423fb673754266702f71);
+        
+    
+        var popup_00475ad9969c4762a39622c25bbb2c38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0973a26f824f462eae6aab5d33a2a3ff = $(`<div id="html_0973a26f824f462eae6aab5d33a2a3ff" style="width: 100.0%; height: 100.0%;">Ім'я: Chuck Todd, Юзернейм: @chucktodd</div>`)[0];
+            popup_00475ad9969c4762a39622c25bbb2c38.setContent(html_0973a26f824f462eae6aab5d33a2a3ff);
+        
+
+        marker_1c88061d6e604905b6dbc1c8fbbb5370.bindPopup(popup_00475ad9969c4762a39622c25bbb2c38)
+        ;
+
+        
+    
+    
+            var marker_5591b25bf42c4639b6d97b44deeca5d4 = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_a6f0a8b973934412b16e602db21a5b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5591b25bf42c4639b6d97b44deeca5d4.setIcon(icon_a6f0a8b973934412b16e602db21a5b53);
+        
+    
+        var popup_a18416258ff14ef0acebaf972b8cc5af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4b17ba323694dd784c50f3e1c995690 = $(`<div id="html_b4b17ba323694dd784c50f3e1c995690" style="width: 100.0%; height: 100.0%;">Ім'я: Joe Scarborough, Юзернейм: @JoeNBC</div>`)[0];
+            popup_a18416258ff14ef0acebaf972b8cc5af.setContent(html_b4b17ba323694dd784c50f3e1c995690);
+        
+
+        marker_5591b25bf42c4639b6d97b44deeca5d4.bindPopup(popup_a18416258ff14ef0acebaf972b8cc5af)
+        ;
+
+        
+    
+    
+            var marker_828137addaf34359a4196110efbb9313 = L.marker(
+                [29.9759983, -90.0782127],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_c53ad2300cf14cb6a4287b4d369f7f35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_828137addaf34359a4196110efbb9313.setIcon(icon_c53ad2300cf14cb6a4287b4d369f7f35);
+        
+    
+        var popup_1c130f7b3d644b89865b92c13ae7601f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a04e2678542a4bb69558df1e9b38b463 = $(`<div id="html_a04e2678542a4bb69558df1e9b38b463" style="width: 100.0%; height: 100.0%;">Ім'я: Myke Cole, Юзернейм: @MykeCole</div>`)[0];
+            popup_1c130f7b3d644b89865b92c13ae7601f.setContent(html_a04e2678542a4bb69558df1e9b38b463);
+        
+
+        marker_828137addaf34359a4196110efbb9313.bindPopup(popup_1c130f7b3d644b89865b92c13ae7601f)
+        ;
+
+        
+    
+    
+            var marker_8503b7971c994b19b19d74784ed6a986 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_0440b4357f034ababf451e3f207615f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8503b7971c994b19b19d74784ed6a986.setIcon(icon_0440b4357f034ababf451e3f207615f3);
+        
+    
+        var popup_b7ca47dc1c3b46b59ce7c1688a45ae09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f610d8a133ce4ec38560c39ad853b477 = $(`<div id="html_f610d8a133ce4ec38560c39ad853b477" style="width: 100.0%; height: 100.0%;">Ім'я: Jim Acosta, Юзернейм: @Acosta</div>`)[0];
+            popup_b7ca47dc1c3b46b59ce7c1688a45ae09.setContent(html_f610d8a133ce4ec38560c39ad853b477);
+        
+
+        marker_8503b7971c994b19b19d74784ed6a986.bindPopup(popup_b7ca47dc1c3b46b59ce7c1688a45ae09)
+        ;
+
+        
+    
+    
+            var marker_587eeda5823143d1b1ade1c893839887 = L.marker(
+                [38.9074322, -77.0350922],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_065ff572fcdb4603898037fda25b5501 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_587eeda5823143d1b1ade1c893839887.setIcon(icon_065ff572fcdb4603898037fda25b5501);
+        
+    
+        var popup_9fa6960832ef4599a11095304927be86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b849dac0a3b4fed8fdeb5f23dc962f7 = $(`<div id="html_3b849dac0a3b4fed8fdeb5f23dc962f7" style="width: 100.0%; height: 100.0%;">Ім'я: Jake Tapper, Юзернейм: @jaketapper</div>`)[0];
+            popup_9fa6960832ef4599a11095304927be86.setContent(html_3b849dac0a3b4fed8fdeb5f23dc962f7);
+        
+
+        marker_587eeda5823143d1b1ade1c893839887.bindPopup(popup_9fa6960832ef4599a11095304927be86)
+        ;
+
+        
+    
+    
+            var marker_9b12d4cf10d24e3c901d6233c3dcb021 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e2810efcfd1f46a795def915aaf29a6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b12d4cf10d24e3c901d6233c3dcb021.setIcon(icon_e2810efcfd1f46a795def915aaf29a6a);
+        
+    
+        var popup_f6de0d8e0ef34852b7372634e8995a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f497ff20a1014896ab30ca91903be028 = $(`<div id="html_f497ff20a1014896ab30ca91903be028" style="width: 100.0%; height: 100.0%;">Ім'я: Wolf Blitzer, Юзернейм: @wolfblitzer</div>`)[0];
+            popup_f6de0d8e0ef34852b7372634e8995a85.setContent(html_f497ff20a1014896ab30ca91903be028);
+        
+
+        marker_9b12d4cf10d24e3c901d6233c3dcb021.bindPopup(popup_f6de0d8e0ef34852b7372634e8995a85)
+        ;
+
+        
+    
+    
+            var marker_e185e477d0af4ac5845aa9dca895fbf5 = L.marker(
+                [40.6526006, -73.9497211],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_fef3459689a247dcafa461f1d8082880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e185e477d0af4ac5845aa9dca895fbf5.setIcon(icon_fef3459689a247dcafa461f1d8082880);
+        
+    
+        var popup_d4e98b89128841f4adc9eacd17297a3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7efb14f4204d4f079f735949f48d47d8 = $(`<div id="html_7efb14f4204d4f079f735949f48d47d8" style="width: 100.0%; height: 100.0%;">Ім'я: Glenn Kenny, Юзернейм: @Glenn__Kenny</div>`)[0];
+            popup_d4e98b89128841f4adc9eacd17297a3d.setContent(html_7efb14f4204d4f079f735949f48d47d8);
+        
+
+        marker_e185e477d0af4ac5845aa9dca895fbf5.bindPopup(popup_d4e98b89128841f4adc9eacd17297a3d)
+        ;
+
+        
+    
+    
+            var marker_55258b5c449d4fb5b31ae2da83b468d2 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_6b693fe9f9164eb5afd34022c1656a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55258b5c449d4fb5b31ae2da83b468d2.setIcon(icon_6b693fe9f9164eb5afd34022c1656a65);
+        
+    
+        var popup_4b3fc7ad5a2e48ccbd416bda410f2327 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a95565460f4a48448f8011db858fb077 = $(`<div id="html_a95565460f4a48448f8011db858fb077" style="width: 100.0%; height: 100.0%;">Ім'я: Megan Abbott, Юзернейм: @meganeabbott</div>`)[0];
+            popup_4b3fc7ad5a2e48ccbd416bda410f2327.setContent(html_a95565460f4a48448f8011db858fb077);
+        
+
+        marker_55258b5c449d4fb5b31ae2da83b468d2.bindPopup(popup_4b3fc7ad5a2e48ccbd416bda410f2327)
+        ;
+
+        
+    
+    
+            var marker_88df0013557d4952a3c700717c359af2 = L.marker(
+                [31.2638905, -98.5456116],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_24a233ff70554dffa8bce62b1b9aeaf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88df0013557d4952a3c700717c359af2.setIcon(icon_24a233ff70554dffa8bce62b1b9aeaf1);
+        
+    
+        var popup_0ec62793903546b4899fa1b1b14b92ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9476d69692e4e2382322127dac4a7fb = $(`<div id="html_d9476d69692e4e2382322127dac4a7fb" style="width: 100.0%; height: 100.0%;">Ім'я: Joe Lansdale, Юзернейм: @joelansdale</div>`)[0];
+            popup_0ec62793903546b4899fa1b1b14b92ac.setContent(html_d9476d69692e4e2382322127dac4a7fb);
+        
+
+        marker_88df0013557d4952a3c700717c359af2.bindPopup(popup_0ec62793903546b4899fa1b1b14b92ac)
+        ;
+
+        
+    
+    
+            var marker_241bd36f6ad743b49e023a77402904b6 = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_1487645e232446779bed568a3af7a5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_241bd36f6ad743b49e023a77402904b6.setIcon(icon_1487645e232446779bed568a3af7a5b4);
+        
+    
+        var popup_db336ea7e02e48c193f6c99a901feef9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_400bef7ed75348788098ae7b9b5e37f9 = $(`<div id="html_400bef7ed75348788098ae7b9b5e37f9" style="width: 100.0%; height: 100.0%;">Ім'я: Mike Flanagan, Юзернейм: @flanaganfilm</div>`)[0];
+            popup_db336ea7e02e48c193f6c99a901feef9.setContent(html_400bef7ed75348788098ae7b9b5e37f9);
+        
+
+        marker_241bd36f6ad743b49e023a77402904b6.bindPopup(popup_db336ea7e02e48c193f6c99a901feef9)
+        ;
+
+        
+    
+    
+            var marker_fffe524689b2480e95d09433418344e5 = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_b4af5762ffc34f5badf77da543f75d1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fffe524689b2480e95d09433418344e5.setIcon(icon_b4af5762ffc34f5badf77da543f75d1b);
+        
+    
+        var popup_e0fa5ad1550045baae5fd8d83178c011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4907d798c404404287ee9ea98b328e7f = $(`<div id="html_4907d798c404404287ee9ea98b328e7f" style="width: 100.0%; height: 100.0%;">Ім'я: Rob Reiner, Юзернейм: @robreiner</div>`)[0];
+            popup_e0fa5ad1550045baae5fd8d83178c011.setContent(html_4907d798c404404287ee9ea98b328e7f);
+        
+
+        marker_fffe524689b2480e95d09433418344e5.bindPopup(popup_e0fa5ad1550045baae5fd8d83178c011)
+        ;
+
+        
+    
+    
+            var marker_9331bc463c734093a024c542a2af0856 = L.marker(
+                [34.9550817, -97.2684063],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_698c841a0017494e99148ea0e3299708 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9331bc463c734093a024c542a2af0856.setIcon(icon_698c841a0017494e99148ea0e3299708);
+        
+    
+        var popup_2f8abed9e7b647acb81cc23031a78ccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8973cf53de044b708514276ceb965eb3 = $(`<div id="html_8973cf53de044b708514276ceb965eb3" style="width: 100.0%; height: 100.0%;">Ім'я: Lou Berney, Юзернейм: @Lou_Berney</div>`)[0];
+            popup_2f8abed9e7b647acb81cc23031a78ccf.setContent(html_8973cf53de044b708514276ceb965eb3);
+        
+
+        marker_9331bc463c734093a024c542a2af0856.bindPopup(popup_2f8abed9e7b647acb81cc23031a78ccf)
+        ;
+
+        
+    
+    
+            var marker_49f64c5a5cce4faf8f494fe162a16182 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_cbc05f9b24e9474a9703f7155aba04b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49f64c5a5cce4faf8f494fe162a16182.setIcon(icon_cbc05f9b24e9474a9703f7155aba04b2);
+        
+    
+        var popup_06ea2f46c13c4f22b8077595d91b1669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_297a56d2352041608ba77ba21b8d932e = $(`<div id="html_297a56d2352041608ba77ba21b8d932e" style="width: 100.0%; height: 100.0%;">Ім'я: Katie Rogers, Юзернейм: @katierogers</div>`)[0];
+            popup_06ea2f46c13c4f22b8077595d91b1669.setContent(html_297a56d2352041608ba77ba21b8d932e);
+        
+
+        marker_49f64c5a5cce4faf8f494fe162a16182.bindPopup(popup_06ea2f46c13c4f22b8077595d91b1669)
+        ;
+
+        
+    
+    
+            var marker_921ba0849eb64864b7519a2bcec28579 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_9dc6a3c998c744a39956f2a1a7b32ca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_921ba0849eb64864b7519a2bcec28579.setIcon(icon_9dc6a3c998c744a39956f2a1a7b32ca1);
+        
+    
+        var popup_beea230a16754c18a0c0843bb3a162cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e506fa7fa98649b88690f33ed25159e5 = $(`<div id="html_e506fa7fa98649b88690f33ed25159e5" style="width: 100.0%; height: 100.0%;">Ім'я: Ron Charles, Юзернейм: @RonCharles</div>`)[0];
+            popup_beea230a16754c18a0c0843bb3a162cc.setContent(html_e506fa7fa98649b88690f33ed25159e5);
+        
+
+        marker_921ba0849eb64864b7519a2bcec28579.bindPopup(popup_beea230a16754c18a0c0843bb3a162cc)
+        ;
+
+        
+    
+    
+            var marker_5300b69a6dfe4c53995cb73af4a16c0d = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_b59288d032c043be88e4aa19e09d730c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5300b69a6dfe4c53995cb73af4a16c0d.setIcon(icon_b59288d032c043be88e4aa19e09d730c);
+        
+    
+        var popup_63aca4b17f304dbe87a30c5314e1d521 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ca424423cdf43c1966bfb4e5e3bdb76 = $(`<div id="html_6ca424423cdf43c1966bfb4e5e3bdb76" style="width: 100.0%; height: 100.0%;">Ім'я: Charles Finch, Юзернейм: @CharlesFinch</div>`)[0];
+            popup_63aca4b17f304dbe87a30c5314e1d521.setContent(html_6ca424423cdf43c1966bfb4e5e3bdb76);
+        
+
+        marker_5300b69a6dfe4c53995cb73af4a16c0d.bindPopup(popup_63aca4b17f304dbe87a30c5314e1d521)
+        ;
+
+        
+    
+    
+            var marker_288b63eff1f54b9ba540ffac0ab45b58 = L.marker(
+                [61.0666922, -107.991707],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_03351f9993964d97bfe8928783e53304 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_288b63eff1f54b9ba540ffac0ab45b58.setIcon(icon_03351f9993964d97bfe8928783e53304);
+        
+    
+        var popup_b32ca14327de4787838c3a93438325ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0494cc8ea5c949a8a1a5eebfd0136237 = $(`<div id="html_0494cc8ea5c949a8a1a5eebfd0136237" style="width: 100.0%; height: 100.0%;">Ім'я: ANNE LAMOTT, Юзернейм: @ANNELAMOTT</div>`)[0];
+            popup_b32ca14327de4787838c3a93438325ce.setContent(html_0494cc8ea5c949a8a1a5eebfd0136237);
+        
+
+        marker_288b63eff1f54b9ba540ffac0ab45b58.bindPopup(popup_b32ca14327de4787838c3a93438325ce)
+        ;
+
+        
+    
+    
+            var marker_31900021fdb24725937d13d437b26824 = L.marker(
+                [42.3602534, -71.0582912],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_6e8e0cbce73a4e47a75d7963f930dd50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31900021fdb24725937d13d437b26824.setIcon(icon_6e8e0cbce73a4e47a75d7963f930dd50);
+        
+    
+        var popup_42d6c4bbcd374bf089cf90acedbbdd47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ed92906e8c4a34a2543bc8fb61dfce = $(`<div id="html_b6ed92906e8c4a34a2543bc8fb61dfce" style="width: 100.0%; height: 100.0%;">Ім'я: Paul Tremblay, Юзернейм: @paulGtremblay</div>`)[0];
+            popup_42d6c4bbcd374bf089cf90acedbbdd47.setContent(html_b6ed92906e8c4a34a2543bc8fb61dfce);
+        
+
+        marker_31900021fdb24725937d13d437b26824.bindPopup(popup_42d6c4bbcd374bf089cf90acedbbdd47)
+        ;
+
+        
+    
+    
+            var marker_5bc076b9e1694f1ebc4778e8c22c5321 = L.marker(
+                [40.741235950000004, -73.35669116536101],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_ad15a63bd5d446ad9913611e84d2d041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5bc076b9e1694f1ebc4778e8c22c5321.setIcon(icon_ad15a63bd5d446ad9913611e84d2d041);
+        
+    
+        var popup_45031a33f3df4af69c37c6febc1eabcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53f0d4d094e54fc59ea55514c1bc3ea0 = $(`<div id="html_53f0d4d094e54fc59ea55514c1bc3ea0" style="width: 100.0%; height: 100.0%;">Ім'я: Jack Reacher Books, Юзернейм: @LeeChildReacher</div>`)[0];
+            popup_45031a33f3df4af69c37c6febc1eabcd.setContent(html_53f0d4d094e54fc59ea55514c1bc3ea0);
+        
+
+        marker_5bc076b9e1694f1ebc4778e8c22c5321.bindPopup(popup_45031a33f3df4af69c37c6febc1eabcd)
+        ;
+
+        
+    
+    
+            var marker_ac60279c9a704d5fa039cf21c43d956c = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_f373a6d28c5743638aeff5f5408b63f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac60279c9a704d5fa039cf21c43d956c.setIcon(icon_f373a6d28c5743638aeff5f5408b63f2);
+        
+    
+        var popup_3e63a204491e423cbdbee76a811aaef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a72a3e5eebb48c497670525cca08d7c = $(`<div id="html_6a72a3e5eebb48c497670525cca08d7c" style="width: 100.0%; height: 100.0%;">Ім'я: Corey Feldman, Юзернейм: @Corey_Feldman</div>`)[0];
+            popup_3e63a204491e423cbdbee76a811aaef4.setContent(html_6a72a3e5eebb48c497670525cca08d7c);
+        
+
+        marker_ac60279c9a704d5fa039cf21c43d956c.bindPopup(popup_3e63a204491e423cbdbee76a811aaef4)
+        ;
+
+        
+    
+    
+            var marker_22664b1aadae43428cd1d578185c605a = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_6f8718401635424caae91b8f65be8687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22664b1aadae43428cd1d578185c605a.setIcon(icon_6f8718401635424caae91b8f65be8687);
+        
+    
+        var popup_801d4c474588458d871940f8dc919244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f112ba52f545dbb1ce11f654907fcf = $(`<div id="html_d2f112ba52f545dbb1ce11f654907fcf" style="width: 100.0%; height: 100.0%;">Ім'я: Michael Cohen, Юзернейм: @MichaelCohen212</div>`)[0];
+            popup_801d4c474588458d871940f8dc919244.setContent(html_d2f112ba52f545dbb1ce11f654907fcf);
+        
+
+        marker_22664b1aadae43428cd1d578185c605a.bindPopup(popup_801d4c474588458d871940f8dc919244)
+        ;
+
+        
+    
+    
+            var marker_9a111248acdc4af4be5990a10e64e991 = L.marker(
+                [39.2908816, -76.610759],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_b360b2d0a886434fa45073f2e995c2b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a111248acdc4af4be5990a10e64e991.setIcon(icon_b360b2d0a886434fa45073f2e995c2b3);
+        
+    
+        var popup_7b3f6e17cff948ed9fff98feb7bfade9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc28dc69b6c446fc9a7ee5f36233d987 = $(`<div id="html_fc28dc69b6c446fc9a7ee5f36233d987" style="width: 100.0%; height: 100.0%;">Ім'я: Laura Lippman, Юзернейм: @LauraMLippman</div>`)[0];
+            popup_7b3f6e17cff948ed9fff98feb7bfade9.setContent(html_fc28dc69b6c446fc9a7ee5f36233d987);
+        
+
+        marker_9a111248acdc4af4be5990a10e64e991.bindPopup(popup_7b3f6e17cff948ed9fff98feb7bfade9)
+        ;
+
+        
+    
+    
+            var marker_5dc807d871ab433088474df776e72f0a = L.marker(
+                [27.7567667, -81.4639835],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_d376e9d7ffbc476195cc25c6fd2f71f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5dc807d871ab433088474df776e72f0a.setIcon(icon_d376e9d7ffbc476195cc25c6fd2f71f6);
+        
+    
+        var popup_f47ae9bdd19146c5bfc4dd71c864c2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a59aa16d63847aa9ca244b3c2d665e5 = $(`<div id="html_9a59aa16d63847aa9ca244b3c2d665e5" style="width: 100.0%; height: 100.0%;">Ім'я: Carl Hiaasen, Юзернейм: @Carl_Hiaasen</div>`)[0];
+            popup_f47ae9bdd19146c5bfc4dd71c864c2e4.setContent(html_9a59aa16d63847aa9ca244b3c2d665e5);
+        
+
+        marker_5dc807d871ab433088474df776e72f0a.bindPopup(popup_f47ae9bdd19146c5bfc4dd71c864c2e4)
+        ;
+
+        
+    
+    
+            var marker_f07f9fec91c44f55ad076a7d1bb9f5d4 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_a9de3d2f0073403b928f5f09572bb22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f07f9fec91c44f55ad076a7d1bb9f5d4.setIcon(icon_a9de3d2f0073403b928f5f09572bb22e);
+        
+    
+        var popup_3b4cc4440a804ae780a74f569229de4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8afbf6d537bc4709b10720db610571f4 = $(`<div id="html_8afbf6d537bc4709b10720db610571f4" style="width: 100.0%; height: 100.0%;">Ім'я: Leonardo DiCaprio, Юзернейм: @LeoDiCaprio</div>`)[0];
+            popup_3b4cc4440a804ae780a74f569229de4a.setContent(html_8afbf6d537bc4709b10720db610571f4);
+        
+
+        marker_f07f9fec91c44f55ad076a7d1bb9f5d4.bindPopup(popup_3b4cc4440a804ae780a74f569229de4a)
+        ;
+
+        
+    
+    
+            var marker_cb70200e698f40ca9a2fb26432d00579 = L.marker(
+                [40.9699889, -77.7278831],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_a4664c1750894f148341370ee1ccc5ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb70200e698f40ca9a2fb26432d00579.setIcon(icon_a4664c1750894f148341370ee1ccc5ec);
+        
+    
+        var popup_42f22df344a748b38d8a93fc43fb6983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e293bfec921d44fe8769b5f52860f249 = $(`<div id="html_e293bfec921d44fe8769b5f52860f249" style="width: 100.0%; height: 100.0%;">Ім'я: BrianKeene, Юзернейм: @BrianKeene</div>`)[0];
+            popup_42f22df344a748b38d8a93fc43fb6983.setContent(html_e293bfec921d44fe8769b5f52860f249);
+        
+
+        marker_cb70200e698f40ca9a2fb26432d00579.bindPopup(popup_42f22df344a748b38d8a93fc43fb6983)
+        ;
+
+        
+    
+    
+            var marker_77d69e25a81442749824ac3c4d413942 = L.marker(
+                [30.2711286, -97.7436995],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_71610e1d6bfa4a7ea73e5709f82b1997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77d69e25a81442749824ac3c4d413942.setIcon(icon_71610e1d6bfa4a7ea73e5709f82b1997);
+        
+    
+        var popup_4152949fa7f644a5b48f2e92e2c7c274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_195bbb4eb08c4d7790a5b7c9d38356d5 = $(`<div id="html_195bbb4eb08c4d7790a5b7c9d38356d5" style="width: 100.0%; height: 100.0%;">Ім'я: Scott Von Doviak, Юзернейм: @vondoviak</div>`)[0];
+            popup_4152949fa7f644a5b48f2e92e2c7c274.setContent(html_195bbb4eb08c4d7790a5b7c9d38356d5);
+        
+
+        marker_77d69e25a81442749824ac3c4d413942.bindPopup(popup_4152949fa7f644a5b48f2e92e2c7c274)
+        ;
+
+        
+    
+    
+            var marker_b84112aa58064d25bae96ae98d01fa3a = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_a1fcff7fe7ae459e82cf07ea966798b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b84112aa58064d25bae96ae98d01fa3a.setIcon(icon_a1fcff7fe7ae459e82cf07ea966798b3);
+        
+    
+        var popup_a07b260897904eceba17a03048426a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5edf0fd998542b6817dd41ca6df050c = $(`<div id="html_b5edf0fd998542b6817dd41ca6df050c" style="width: 100.0%; height: 100.0%;">Ім'я: Roxanne Gay, Юзернейм: @meditation112</div>`)[0];
+            popup_a07b260897904eceba17a03048426a29.setContent(html_b5edf0fd998542b6817dd41ca6df050c);
+        
+
+        marker_b84112aa58064d25bae96ae98d01fa3a.bindPopup(popup_a07b260897904eceba17a03048426a29)
+        ;
+
+        
+    
+    
+            var marker_3a5fa929e69043aa9244cb80a105be3d = L.marker(
+                [34.035591, -118.689423],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_bb4580888efb472f98008465467b7c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a5fa929e69043aa9244cb80a105be3d.setIcon(icon_bb4580888efb472f98008465467b7c5c);
+        
+    
+        var popup_1723fc654a414495a69210e70d0c0cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d783151ad8884ffdb743ad44a84db540 = $(`<div id="html_d783151ad8884ffdb743ad44a84db540" style="width: 100.0%; height: 100.0%;">Ім'я: Meredith Salenger, Юзернейм: @MeredthSalenger</div>`)[0];
+            popup_1723fc654a414495a69210e70d0c0cfd.setContent(html_d783151ad8884ffdb743ad44a84db540);
+        
+
+        marker_3a5fa929e69043aa9244cb80a105be3d.bindPopup(popup_1723fc654a414495a69210e70d0c0cfd)
+        ;
+
+        
+    
+    
+            var marker_d6b2d80a713f4bccbcf27e752b2fd10d = L.marker(
+                [42.3602534, -71.0582912],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e0fac806bf1540b6a3125bad44ef07fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6b2d80a713f4bccbcf27e752b2fd10d.setIcon(icon_e0fac806bf1540b6a3125bad44ef07fc);
+        
+    
+        var popup_9c796ed9fcf64435bd96efadfa686d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e66c6fba9d3849b89b44095399880f77 = $(`<div id="html_e66c6fba9d3849b89b44095399880f77" style="width: 100.0%; height: 100.0%;">Ім'я: Heidi Pitlor, Юзернейм: @HeidiPitlor</div>`)[0];
+            popup_9c796ed9fcf64435bd96efadfa686d3b.setContent(html_e66c6fba9d3849b89b44095399880f77);
+        
+
+        marker_d6b2d80a713f4bccbcf27e752b2fd10d.bindPopup(popup_9c796ed9fcf64435bd96efadfa686d3b)
+        ;
+
+        
+    
+    
+            var marker_1c7f86c7ab1b403e9f2e953dbbb82f94 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_0049b06ace454b88a3e634024605dacc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c7f86c7ab1b403e9f2e953dbbb82f94.setIcon(icon_0049b06ace454b88a3e634024605dacc);
+        
+    
+        var popup_bcdb4de4440e4be8afdd2f80be3ccff3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f6d2ada5b842fabedd65689fd06c2d = $(`<div id="html_31f6d2ada5b842fabedd65689fd06c2d" style="width: 100.0%; height: 100.0%;">Ім'я: Harry Bosch, Юзернейм: @HarryBoschQuote</div>`)[0];
+            popup_bcdb4de4440e4be8afdd2f80be3ccff3.setContent(html_31f6d2ada5b842fabedd65689fd06c2d);
+        
+
+        marker_1c7f86c7ab1b403e9f2e953dbbb82f94.bindPopup(popup_bcdb4de4440e4be8afdd2f80be3ccff3)
+        ;
+
+        
+    
+    
+            var marker_a05da01365d0487db3f631eb7da51964 = L.marker(
+                [-33.8548157, 151.2164539],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_0fb83d6f59f44cb5a4b246ca2a9e7455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a05da01365d0487db3f631eb7da51964.setIcon(icon_0fb83d6f59f44cb5a4b246ca2a9e7455);
+        
+    
+        var popup_6fc9a08bb3c043998f216165e96a632b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb34867bed424013992402c157b6b73b = $(`<div id="html_eb34867bed424013992402c157b6b73b" style="width: 100.0%; height: 100.0%;">Ім'я: Michael Robotham, Юзернейм: @michaelrobotham</div>`)[0];
+            popup_6fc9a08bb3c043998f216165e96a632b.setContent(html_eb34867bed424013992402c157b6b73b);
+        
+
+        marker_a05da01365d0487db3f631eb7da51964.bindPopup(popup_6fc9a08bb3c043998f216165e96a632b)
+        ;
+
+        
+    
+    
+            var marker_c92e216faa9c457ca94cdec2f8b58d83 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_c41545204cec485b9623c1295b2fbc85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c92e216faa9c457ca94cdec2f8b58d83.setIcon(icon_c41545204cec485b9623c1295b2fbc85);
+        
+    
+        var popup_5fe7b54fe6a94146b661c05c571cf5b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3097ff91cab74dee9b2ac9c97db540fd = $(`<div id="html_3097ff91cab74dee9b2ac9c97db540fd" style="width: 100.0%; height: 100.0%;">Ім'я: Rachel Maddow MSNBC, Юзернейм: @maddow</div>`)[0];
+            popup_5fe7b54fe6a94146b661c05c571cf5b2.setContent(html_3097ff91cab74dee9b2ac9c97db540fd);
+        
+
+        marker_c92e216faa9c457ca94cdec2f8b58d83.bindPopup(popup_5fe7b54fe6a94146b661c05c571cf5b2)
+        ;
+
+        
+    
+    
+            var marker_cec2f8d8066647d9b1dd7c7f7d14c6ce = L.marker(
+                [56.7861112, -4.1140518],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_83d1f39a5ef546ac9d8ba79c8eaba487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cec2f8d8066647d9b1dd7c7f7d14c6ce.setIcon(icon_83d1f39a5ef546ac9d8ba79c8eaba487);
+        
+    
+        var popup_a7190bbdd30b42a9b9b44ae7ea2a1b44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6760579a72b8429883a839946fa6099c = $(`<div id="html_6760579a72b8429883a839946fa6099c" style="width: 100.0%; height: 100.0%;">Ім'я: J.K. Rowling, Юзернейм: @jk_rowling</div>`)[0];
+            popup_a7190bbdd30b42a9b9b44ae7ea2a1b44.setContent(html_6760579a72b8429883a839946fa6099c);
+        
+
+        marker_cec2f8d8066647d9b1dd7c7f7d14c6ce.bindPopup(popup_a7190bbdd30b42a9b9b44ae7ea2a1b44)
+        ;
+
+        
+    
+    
+            var marker_6b5b22977b9c44819aa59a89acadbbe2 = L.marker(
+                [42.3602534, -71.0582912],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_55f090c88ade406bac4edbbbd8af916b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b5b22977b9c44819aa59a89acadbbe2.setIcon(icon_55f090c88ade406bac4edbbbd8af916b);
+        
+    
+        var popup_d30cbeae488d4aa7acf63f26ceba0ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e979bf634f4896888e6e6b0d76841e = $(`<div id="html_30e979bf634f4896888e6e6b0d76841e" style="width: 100.0%; height: 100.0%;">Ім'я: Joseph Finder, Юзернейм: @JoeFinder</div>`)[0];
+            popup_d30cbeae488d4aa7acf63f26ceba0ed0.setContent(html_30e979bf634f4896888e6e6b0d76841e);
+        
+
+        marker_6b5b22977b9c44819aa59a89acadbbe2.bindPopup(popup_d30cbeae488d4aa7acf63f26ceba0ed0)
+        ;
+
+        
+    
+    
+            var marker_5b5c52f52c204737a0567ff79f32548b = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_9858464974c642f8b805f92ad0719f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b5c52f52c204737a0567ff79f32548b.setIcon(icon_9858464974c642f8b805f92ad0719f39);
+        
+    
+        var popup_d77376ae911349679d41b8beaaaa6dca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a9987804e444a5f906d2c3917ac0d44 = $(`<div id="html_3a9987804e444a5f906d2c3917ac0d44" style="width: 100.0%; height: 100.0%;">Ім'я: Peter Straub, Юзернейм: @peterstraubnyc</div>`)[0];
+            popup_d77376ae911349679d41b8beaaaa6dca.setContent(html_3a9987804e444a5f906d2c3917ac0d44);
+        
+
+        marker_5b5c52f52c204737a0567ff79f32548b.bindPopup(popup_d77376ae911349679d41b8beaaaa6dca)
+        ;
+
+        
+    
+    
+            var marker_af2decf668b943258d250671ac8cf475 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_512970d094344c34bb1431fa033b22cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af2decf668b943258d250671ac8cf475.setIcon(icon_512970d094344c34bb1431fa033b22cb);
+        
+    
+        var popup_020bcceeb9ca45edb33c3688515f1bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fc9d99b8b9748af8504ca51df547c8f = $(`<div id="html_5fc9d99b8b9748af8504ca51df547c8f" style="width: 100.0%; height: 100.0%;">Ім'я: Michael Morell, Юзернейм: @MichaelJMorell</div>`)[0];
+            popup_020bcceeb9ca45edb33c3688515f1bb5.setContent(html_5fc9d99b8b9748af8504ca51df547c8f);
+        
+
+        marker_af2decf668b943258d250671ac8cf475.bindPopup(popup_020bcceeb9ca45edb33c3688515f1bb5)
+        ;
+
+        
+    
+    
+            var marker_937052749bf24b609f33d7a53a03fe0f = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_08151e297dc742de87a745b3987c51ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_937052749bf24b609f33d7a53a03fe0f.setIcon(icon_08151e297dc742de87a745b3987c51ee);
+        
+    
+        var popup_13abea9e58154460a17f9d0417029c51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_423b2adc51d747aeb01cf2e10220bcff = $(`<div id="html_423b2adc51d747aeb01cf2e10220bcff" style="width: 100.0%; height: 100.0%;">Ім'я: Jack Bender, Юзернейм: @jackbenderart</div>`)[0];
+            popup_13abea9e58154460a17f9d0417029c51.setContent(html_423b2adc51d747aeb01cf2e10220bcff);
+        
+
+        marker_937052749bf24b609f33d7a53a03fe0f.bindPopup(popup_13abea9e58154460a17f9d0417029c51)
+        ;
+
+        
+    
+    
+            var marker_6706f2b56b2249459d1e90174ffccb53 = L.marker(
+                [30.2711286, -97.7436995],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e6a1040262004e818cec492e7bf4a327 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6706f2b56b2249459d1e90174ffccb53.setIcon(icon_e6a1040262004e818cec492e7bf4a327);
+        
+    
+        var popup_b648932af7f84866b5660d7822b3dbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_792c3620ec1d43979658a48341d6b91e = $(`<div id="html_792c3620ec1d43979658a48341d6b91e" style="width: 100.0%; height: 100.0%;">Ім'я: Meg Gardiner, Юзернейм: @MegGardiner1</div>`)[0];
+            popup_b648932af7f84866b5660d7822b3dbc7.setContent(html_792c3620ec1d43979658a48341d6b91e);
+        
+
+        marker_6706f2b56b2249459d1e90174ffccb53.bindPopup(popup_b648932af7f84866b5660d7822b3dbc7)
+        ;
+
+        
+    
+    
+            var marker_8b9812e23cff4047b2f8a2fa6e75ef26 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_07d26a5452bc41869d78dd46f81fa791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b9812e23cff4047b2f8a2fa6e75ef26.setIcon(icon_07d26a5452bc41869d78dd46f81fa791);
+        
+    
+        var popup_7aa63d0a44cd443cb3a8a409b9426ce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2487ace32134425863e3ec3aaaf3b56 = $(`<div id="html_c2487ace32134425863e3ec3aaaf3b56" style="width: 100.0%; height: 100.0%;">Ім'я: Jack Ketchum, Юзернейм: @JackKetchum</div>`)[0];
+            popup_7aa63d0a44cd443cb3a8a409b9426ce4.setContent(html_c2487ace32134425863e3ec3aaaf3b56);
+        
+
+        marker_8b9812e23cff4047b2f8a2fa6e75ef26.bindPopup(popup_7aa63d0a44cd443cb3a8a409b9426ce4)
+        ;
+
+        
+    
+    
+            var marker_a1e4cd47ef4145c5acee52dd4ff60606 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_f669b444504d4af99bc9f1c3324969e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1e4cd47ef4145c5acee52dd4ff60606.setIcon(icon_f669b444504d4af99bc9f1c3324969e6);
+        
+    
+        var popup_45a9204dd64f4425bf814b08e850f4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6190a7981384ce3a7f4315e0f7b2123 = $(`<div id="html_e6190a7981384ce3a7f4315e0f7b2123" style="width: 100.0%; height: 100.0%;">Ім'я: Barack Obama, Юзернейм: @BarackObama</div>`)[0];
+            popup_45a9204dd64f4425bf814b08e850f4a0.setContent(html_e6190a7981384ce3a7f4315e0f7b2123);
+        
+
+        marker_a1e4cd47ef4145c5acee52dd4ff60606.bindPopup(popup_45a9204dd64f4425bf814b08e850f4a0)
+        ;
+
+        
+    
+    
+            var marker_c7a7e7f34cdb48899cb58d9742e3a103 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_5aa99ac9cd0e43b289a073eb8cd591ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7a7e7f34cdb48899cb58d9742e3a103.setIcon(icon_5aa99ac9cd0e43b289a073eb8cd591ae);
+        
+    
+        var popup_23f9d449705a4c0697f5bbba28f68698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e26eae9d4c214406b56d738358135ce9 = $(`<div id="html_e26eae9d4c214406b56d738358135ce9" style="width: 100.0%; height: 100.0%;">Ім'я: Homeland on Showtime, Юзернейм: @SHO_Homeland</div>`)[0];
+            popup_23f9d449705a4c0697f5bbba28f68698.setContent(html_e26eae9d4c214406b56d738358135ce9);
+        
+
+        marker_c7a7e7f34cdb48899cb58d9742e3a103.bindPopup(popup_23f9d449705a4c0697f5bbba28f68698)
+        ;
+
+        
+    
+    
+            var marker_d3de7beed9344b3e9ecdd1c80a47d0e8 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_b933db44e8a74cd4a0f274f732c6d0db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3de7beed9344b3e9ecdd1c80a47d0e8.setIcon(icon_b933db44e8a74cd4a0f274f732c6d0db);
+        
+    
+        var popup_ad812e04c34b45ab96f212eb8230cdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bcb989a00234a009b164a22804aafa1 = $(`<div id="html_8bcb989a00234a009b164a22804aafa1" style="width: 100.0%; height: 100.0%;">Ім'я: John Oliver, Юзернейм: @iamjohnoliver</div>`)[0];
+            popup_ad812e04c34b45ab96f212eb8230cdc2.setContent(html_8bcb989a00234a009b164a22804aafa1);
+        
+
+        marker_d3de7beed9344b3e9ecdd1c80a47d0e8.bindPopup(popup_ad812e04c34b45ab96f212eb8230cdc2)
+        ;
+
+        
+    
+    
+            var marker_8177966c380c442390b5da85c99ae986 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_e4489a6c09e643d592af328b4cbfc411 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8177966c380c442390b5da85c99ae986.setIcon(icon_e4489a6c09e643d592af328b4cbfc411);
+        
+    
+        var popup_6acafdebb7754fc2b56a9e11f3160a6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb863657682b466799ba077ac69b8a02 = $(`<div id="html_bb863657682b466799ba077ac69b8a02" style="width: 100.0%; height: 100.0%;">Ім'я: Clive Barker, Юзернейм: @RealCliveBarker</div>`)[0];
+            popup_6acafdebb7754fc2b56a9e11f3160a6e.setContent(html_bb863657682b466799ba077ac69b8a02);
+        
+
+        marker_8177966c380c442390b5da85c99ae986.bindPopup(popup_6acafdebb7754fc2b56a9e11f3160a6e)
+        ;
+
+        
+    
+    
+            var marker_6c7c760e33b7435fbfe06ca513941fb5 = L.marker(
+                [38.9074322, -77.0350922],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_068e5c4522684a40962cc4be1553bc16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c7c760e33b7435fbfe06ca513941fb5.setIcon(icon_068e5c4522684a40962cc4be1553bc16);
+        
+    
+        var popup_6dc3524fb2494bb79953a3c268a66042 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18d72affaa32420aa2405dbbc504d08b = $(`<div id="html_18d72affaa32420aa2405dbbc504d08b" style="width: 100.0%; height: 100.0%;">Ім'я: President Obama, Юзернейм: @POTUS44</div>`)[0];
+            popup_6dc3524fb2494bb79953a3c268a66042.setContent(html_18d72affaa32420aa2405dbbc504d08b);
+        
+
+        marker_6c7c760e33b7435fbfe06ca513941fb5.bindPopup(popup_6dc3524fb2494bb79953a3c268a66042)
+        ;
+
+        
+    
+    
+            var marker_5ba4033a14a04f6ca3901489e520f0d6 = L.marker(
+                [50.000678, -86.000977],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_b6c7968896614fdc8717df35e5b2afdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ba4033a14a04f6ca3901489e520f0d6.setIcon(icon_b6c7968896614fdc8717df35e5b2afdf);
+        
+    
+        var popup_3060e4ea7d1449e1acc6466e2a3d03c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af741cc5852d4bbb99752828164992f9 = $(`<div id="html_af741cc5852d4bbb99752828164992f9" style="width: 100.0%; height: 100.0%;">Ім'я: jim moses, Юзернейм: @mosesxxxx</div>`)[0];
+            popup_3060e4ea7d1449e1acc6466e2a3d03c2.setContent(html_af741cc5852d4bbb99752828164992f9);
+        
+
+        marker_5ba4033a14a04f6ca3901489e520f0d6.bindPopup(popup_3060e4ea7d1449e1acc6466e2a3d03c2)
+        ;
+
+        
+    
+    
+            var marker_2caa10fc4e2240ac9c375f14f27a6702 = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_d0b97ec4ef6646a88b7356697253ccca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2caa10fc4e2240ac9c375f14f27a6702.setIcon(icon_d0b97ec4ef6646a88b7356697253ccca);
+        
+    
+        var popup_7fbec136871e4f7e974b0012c5282204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e4259b59ae487aaeeb11c15fd8abd3 = $(`<div id="html_a3e4259b59ae487aaeeb11c15fd8abd3" style="width: 100.0%; height: 100.0%;">Ім'я: Gillian Redfearn, Юзернейм: @GillianRedfearn</div>`)[0];
+            popup_7fbec136871e4f7e974b0012c5282204.setContent(html_a3e4259b59ae487aaeeb11c15fd8abd3);
+        
+
+        marker_2caa10fc4e2240ac9c375f14f27a6702.bindPopup(popup_7fbec136871e4f7e974b0012c5282204)
+        ;
+
+        
+    
+    
+            var marker_5576250070034326b2368acf7dc39d24 = L.marker(
+                [39.5162234, -76.9382069],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_d6f13470c01d47f597d2850da58b849a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5576250070034326b2368acf7dc39d24.setIcon(icon_d6f13470c01d47f597d2850da58b849a);
+        
+    
+        var popup_0f61c3893cda48339cb89af17210ee40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_416d3a99d46347f0b353860112672f2c = $(`<div id="html_416d3a99d46347f0b353860112672f2c" style="width: 100.0%; height: 100.0%;">Ім'я: Richard Chizmar, Юзернейм: @RichardChizmar</div>`)[0];
+            popup_0f61c3893cda48339cb89af17210ee40.setContent(html_416d3a99d46347f0b353860112672f2c);
+        
+
+        marker_5576250070034326b2368acf7dc39d24.bindPopup(popup_0f61c3893cda48339cb89af17210ee40)
+        ;
+
+        
+    
+    
+            var marker_3d30aaed5b344867ae76e9b7783c64f1 = L.marker(
+                [52.5310214, -1.2649062],
+                {}
+            ).addTo(map_ee45319247bb4b968458cad4d3d7026e);
+        
+    
+            var icon_4bbb28e2aeed4397853ae72a062bbd37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d30aaed5b344867ae76e9b7783c64f1.setIcon(icon_4bbb28e2aeed4397853ae72a062bbd37);
+        
+    
+        var popup_e21dc216c9744fac9fba253b4a22e8d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b5703a1ab24c698a5e1c2cfb5395b2 = $(`<div id="html_65b5703a1ab24c698a5e1c2cfb5395b2" style="width: 100.0%; height: 100.0%;">Ім'я: Tom Taylor, Юзернейм: @TomTaylor1607</div>`)[0];
+            popup_e21dc216c9744fac9fba253b4a22e8d1.setContent(html_65b5703a1ab24c698a5e1c2cfb5395b2);
+        
+
+        marker_3d30aaed5b344867ae76e9b7783c64f1.bindPopup(popup_e21dc216c9744fac9fba253b4a22e8d1)
+        ;
+
+        
+    
+</script>
