@@ -104,16 +104,19 @@ def get_following_users(user_id):
     return parsed_following
 
 
-if __name__ == '__main__':
-    zero_username = input('Input username of a person, whose following you want to see: ')
+def main(zero_username):
     zero_id, zero_location = username_to_id_and_loc(zero_username)
     print('Please wait!')
     following_users = get_following_users(zero_id)
     if type(zero_location) is not str:
         main_map.add_child(folium.Marker(location=zero_location, popup='This person is here',
-                                     icon=folium.Icon(color='red', icon_color='blue', icon='home')))
+                                         icon=folium.Icon(color='red', icon_color='blue', icon='home')))
     for user in following_users:
-        main_map.add_child(folium.Marker(location=user[2], popup="Ім'я: {}, Юзернейм: @{}".format(user[1], user[0]),
+        main_map.add_child(folium.Marker(location=user[2], popup="Name: {}, Username: @{}".format(user[1], user[0]),
                                          icon=folium.Icon(color="green", icon_color="yellow", icon="fa-circle-user")))
-    main_map.save('index.html')
-    print('Done! Check result in /index.html')
+    main_map.save('templates/map.html')
+    print('Done! Check result in /map.html')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter WebApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body class="text-center" style="display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    text-align: center!important;">
+  <form action="/username" method="post" onsubmit="alert('Please wait. This can take few minutes');">
+    <h1 class="h3 mb-3 font-weight-normal">Please enter Twitter user username</h1>
+    <div class="text-center" >
+      <label for="exampleInputEmail1">Enter username. E.g "elonmusk"</label>
+      <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="elonmusk">
+    </div>
+    <button type="submit" class="btn btn-primary">Render map</button>
+  </form>
+</body>
+</html>

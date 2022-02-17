@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e5fc05a68004b829e2b6d4d6d1abfa8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8e5fc05a68004b829e2b6d4d6d1abfa8" ></div>
+        
+</body>
+<script>    
+    
+            var map_8e5fc05a68004b829e2b6d4d6d1abfa8 = L.map(
+                "map_8e5fc05a68004b829e2b6d4d6d1abfa8",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b7abe4e71c7476093211109d5489680 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var marker_260da625f0844093b10bfa80f842ebcf = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_af0020d095cd46df851e0105ef9b7949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_260da625f0844093b10bfa80f842ebcf.setIcon(icon_af0020d095cd46df851e0105ef9b7949);
+        
+    
+        var popup_9629c69ec4f34ad48918ad6ace23b084 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb1b4ecdcf104498b2f069223b2c6c3f = $(`<div id="html_cb1b4ecdcf104498b2f069223b2c6c3f" style="width: 100.0%; height: 100.0%;">Name: Moxie Marlinspike, Username: @moxie</div>`)[0];
+            popup_9629c69ec4f34ad48918ad6ace23b084.setContent(html_cb1b4ecdcf104498b2f069223b2c6c3f);
+        
+
+        marker_260da625f0844093b10bfa80f842ebcf.bindPopup(popup_9629c69ec4f34ad48918ad6ace23b084)
+        ;
+
+        
+    
+    
+            var marker_85737b94b2ce4226ac8cbc8996d40a8e = L.marker(
+                [26.5450001, 117.842778],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_8eb795efca4a4cbe809f2ba964073429 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_85737b94b2ce4226ac8cbc8996d40a8e.setIcon(icon_8eb795efca4a4cbe809f2ba964073429);
+        
+    
+        var popup_1dac095389ac4580bb1af1eade684ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71702e79db234e1195eb116aec1c85fd = $(`<div id="html_71702e79db234e1195eb116aec1c85fd" style="width: 100.0%; height: 100.0%;">Name: 黄光剑, Username: @HGJart</div>`)[0];
+            popup_1dac095389ac4580bb1af1eade684ea7.setContent(html_71702e79db234e1195eb116aec1c85fd);
+        
+
+        marker_85737b94b2ce4226ac8cbc8996d40a8e.bindPopup(popup_1dac095389ac4580bb1af1eade684ea7)
+        ;
+
+        
+    
+    
+            var marker_fd9e8a7e8d58428eb48b25d163d02972 = L.marker(
+                [37.7790262, -122.419906],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_9f40a801e6b842cbb5df7e8162a3e7bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd9e8a7e8d58428eb48b25d163d02972.setIcon(icon_9f40a801e6b842cbb5df7e8162a3e7bc);
+        
+    
+        var popup_7ec9996d9a3c44ee874df1116e2dd700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb9b768ab3ef451ea757947758cb3ea0 = $(`<div id="html_bb9b768ab3ef451ea757947758cb3ea0" style="width: 100.0%; height: 100.0%;">Name: Parag Agrawal, Username: @paraga</div>`)[0];
+            popup_7ec9996d9a3c44ee874df1116e2dd700.setContent(html_bb9b768ab3ef451ea757947758cb3ea0);
+        
+
+        marker_fd9e8a7e8d58428eb48b25d163d02972.bindPopup(popup_7ec9996d9a3c44ee874df1116e2dd700)
+        ;
+
+        
+    
+    
+            var marker_7866606d9d7440279435d43bd4bf90ab = L.marker(
+                [37.7884969, -122.3558473],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_5a657c67771242efbd690e10732b3c17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7866606d9d7440279435d43bd4bf90ab.setIcon(icon_5a657c67771242efbd690e10732b3c17);
+        
+    
+        var popup_d4a6b0eca4264fdf9bdbc547bf18cd07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f308074c8c438397b647ebc3d20a1e = $(`<div id="html_e1f308074c8c438397b647ebc3d20a1e" style="width: 100.0%; height: 100.0%;">Name: Shibetoshi Nakamoto, Username: @BillyM2k</div>`)[0];
+            popup_d4a6b0eca4264fdf9bdbc547bf18cd07.setContent(html_e1f308074c8c438397b647ebc3d20a1e);
+        
+
+        marker_7866606d9d7440279435d43bd4bf90ab.bindPopup(popup_d4a6b0eca4264fdf9bdbc547bf18cd07)
+        ;
+
+        
+    
+    
+            var marker_652ce23c9a4344c8821d7ffe634dc465 = L.marker(
+                [33.683073949999994, -117.94479783055465],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_950761e1d02c444386521c468a7e8136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_652ce23c9a4344c8821d7ffe634dc465.setIcon(icon_950761e1d02c444386521c468a7e8136);
+        
+    
+        var popup_5801b3870beb4ee6ac6de4249a07e988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa4b6a8728224ebf8e2e0a243aab8cd8 = $(`<div id="html_fa4b6a8728224ebf8e2e0a243aab8cd8" style="width: 100.0%; height: 100.0%;">Name: Inspiration4, Username: @inspiration4x</div>`)[0];
+            popup_5801b3870beb4ee6ac6de4249a07e988.setContent(html_fa4b6a8728224ebf8e2e0a243aab8cd8);
+        
+
+        marker_652ce23c9a4344c8821d7ffe634dc465.bindPopup(popup_5801b3870beb4ee6ac6de4249a07e988)
+        ;
+
+        
+    
+    
+            var marker_674f2eb165754b85a16f6161bba9ff59 = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_a67ff8cbf90544f0b098256189fa2283 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_674f2eb165754b85a16f6161bba9ff59.setIcon(icon_a67ff8cbf90544f0b098256189fa2283);
+        
+    
+        var popup_68e735cd94ad45da8cc5401722744bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7609afae8441eeb62b8a2a92aff905 = $(`<div id="html_2f7609afae8441eeb62b8a2a92aff905" style="width: 100.0%; height: 100.0%;">Name: GiGadgets, Username: @gigadgets_</div>`)[0];
+            popup_68e735cd94ad45da8cc5401722744bf6.setContent(html_2f7609afae8441eeb62b8a2a92aff905);
+        
+
+        marker_674f2eb165754b85a16f6161bba9ff59.bindPopup(popup_68e735cd94ad45da8cc5401722744bf6)
+        ;
+
+        
+    
+    
+            var marker_c36025668c824821b603b553278aa9c5 = L.marker(
+                [36.3613705, -82.4000853],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_65829aa146614202aa9249415827659b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c36025668c824821b603b553278aa9c5.setIcon(icon_65829aa146614202aa9249415827659b);
+        
+    
+        var popup_54fcd69969734ece80847e31a40c9362 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd6250be78cf41ceac790514c993fecf = $(`<div id="html_bd6250be78cf41ceac790514c993fecf" style="width: 100.0%; height: 100.0%;">Name: Slashdot, Username: @slashdot</div>`)[0];
+            popup_54fcd69969734ece80847e31a40c9362.setContent(html_bd6250be78cf41ceac790514c993fecf);
+        
+
+        marker_c36025668c824821b603b553278aa9c5.bindPopup(popup_54fcd69969734ece80847e31a40c9362)
+        ;
+
+        
+    
+    
+            var marker_9859ebae829b4ded9cea0766009b5ea0 = L.marker(
+                [55.04104775, 9.810356535653737],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_efde004dcaa743bd877c9f3b866b38cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9859ebae829b4ded9cea0766009b5ea0.setIcon(icon_efde004dcaa743bd877c9f3b866b38cf);
+        
+    
+        var popup_ed8d5a8d8d7a40219920d8038900b9f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e22b6e1dd82547c2a13f47e607e41d82 = $(`<div id="html_e22b6e1dd82547c2a13f47e607e41d82" style="width: 100.0%; height: 100.0%;">Name: Space Porn, Username: @redditSpacePorn</div>`)[0];
+            popup_ed8d5a8d8d7a40219920d8038900b9f4.setContent(html_e22b6e1dd82547c2a13f47e607e41d82);
+        
+
+        marker_9859ebae829b4ded9cea0766009b5ea0.bindPopup(popup_ed8d5a8d8d7a40219920d8038900b9f4)
+        ;
+
+        
+    
+    
+            var marker_bab3095573a14284be3cf0203497680f = L.marker(
+                [39.7085736, -105.0846694],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_06381314822240039a5d3805452009a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bab3095573a14284be3cf0203497680f.setIcon(icon_06381314822240039a5d3805452009a0);
+        
+    
+        var popup_3015dbb631e24b14804f1cf762a4fead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38b1f2d22e04bd2aa78dccaedab38eb = $(`<div id="html_e38b1f2d22e04bd2aa78dccaedab38eb" style="width: 100.0%; height: 100.0%;">Name: The Mars Society, Username: @TheMarsSociety</div>`)[0];
+            popup_3015dbb631e24b14804f1cf762a4fead.setContent(html_e38b1f2d22e04bd2aa78dccaedab38eb);
+        
+
+        marker_bab3095573a14284be3cf0203497680f.bindPopup(popup_3015dbb631e24b14804f1cf762a4fead)
+        ;
+
+        
+    
+    
+            var marker_a02660aee9de4b0fa8d99b830c46ef39 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_8ff79687745d4692ad2caaceb52318a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a02660aee9de4b0fa8d99b830c46ef39.setIcon(icon_8ff79687745d4692ad2caaceb52318a5);
+        
+    
+        var popup_98393de7b6044153b4d3efac42dbcc77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_019623b9c08b46daa88e660008141ea0 = $(`<div id="html_019623b9c08b46daa88e660008141ea0" style="width: 100.0%; height: 100.0%;">Name: CoinDesk, Username: @CoinDesk</div>`)[0];
+            popup_98393de7b6044153b4d3efac42dbcc77.setContent(html_019623b9c08b46daa88e660008141ea0);
+        
+
+        marker_a02660aee9de4b0fa8d99b830c46ef39.bindPopup(popup_98393de7b6044153b4d3efac42dbcc77)
+        ;
+
+        
+    
+    
+            var marker_d509854345a24522abf73ab72b98489a = L.marker(
+                [33.1584497, -86.2385846],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_7cf4a0701992416c9dfde4ce577ee8b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d509854345a24522abf73ab72b98489a.setIcon(icon_7cf4a0701992416c9dfde4ce577ee8b2);
+        
+    
+        var popup_422d3cb77b4149b4af3d369db006ad01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0cf6b900c2c4af592d3968ce3c4aeb9 = $(`<div id="html_e0cf6b900c2c4af592d3968ce3c4aeb9" style="width: 100.0%; height: 100.0%;">Name: Dogecoin, Username: @dogecoin</div>`)[0];
+            popup_422d3cb77b4149b4af3d369db006ad01.setContent(html_e0cf6b900c2c4af592d3968ce3c4aeb9);
+        
+
+        marker_d509854345a24522abf73ab72b98489a.bindPopup(popup_422d3cb77b4149b4af3d369db006ad01)
+        ;
+
+        
+    
+    
+            var marker_044a9394575541c9a585242fd8e8cd32 = L.marker(
+                [37.426540700000004, -122.17029258409187],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_bdbfe6d248004bffbcd88ea371bc0efa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_044a9394575541c9a585242fd8e8cd32.setIcon(icon_bdbfe6d248004bffbcd88ea371bc0efa);
+        
+    
+        var popup_29a3955e9bb64d149cd1d8349f902860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b68f1db86b141069d3898196fe72cca = $(`<div id="html_7b68f1db86b141069d3898196fe72cca" style="width: 100.0%; height: 100.0%;">Name: Andrej Karpathy, Username: @karpathy</div>`)[0];
+            popup_29a3955e9bb64d149cd1d8349f902860.setContent(html_7b68f1db86b141069d3898196fe72cca);
+        
+
+        marker_044a9394575541c9a585242fd8e8cd32.bindPopup(popup_29a3955e9bb64d149cd1d8349f902860)
+        ;
+
+        
+    
+    
+            var marker_e880273c096e4ac0bea0a0139f88d310 = L.marker(
+                [29.5517223, -95.0985272],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_b56e0d4af8c04870b6c6291d49eff40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e880273c096e4ac0bea0a0139f88d310.setIcon(icon_b56e0d4af8c04870b6c6291d49eff40e);
+        
+    
+        var popup_66debe67fd0c4643b06df56cc0d6ead1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bd3de8dd97142dda023425703d7bfa0 = $(`<div id="html_2bd3de8dd97142dda023425703d7bfa0" style="width: 100.0%; height: 100.0%;">Name: NOGUCHI, Soichi 野口　聡一（のぐち　そういち）, Username: @Astro_Soichi</div>`)[0];
+            popup_66debe67fd0c4643b06df56cc0d6ead1.setContent(html_2bd3de8dd97142dda023425703d7bfa0);
+        
+
+        marker_e880273c096e4ac0bea0a0139f88d310.bindPopup(popup_66debe67fd0c4643b06df56cc0d6ead1)
+        ;
+
+        
+    
+    
+            var marker_339615f7598f45e5bc4f7539460e1431 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_2ffd2ef8a4904ea39dc0f71c68b5dc99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_339615f7598f45e5bc4f7539460e1431.setIcon(icon_2ffd2ef8a4904ea39dc0f71c68b5dc99);
+        
+    
+        var popup_e209c15a48a644faa088df073b6b6d90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c2e265b9d2c4d239f8b4df4be1fe62b = $(`<div id="html_7c2e265b9d2c4d239f8b4df4be1fe62b" style="width: 100.0%; height: 100.0%;">Name: Popular Mechanics, Username: @PopMech</div>`)[0];
+            popup_e209c15a48a644faa088df073b6b6d90.setContent(html_7c2e265b9d2c4d239f8b4df4be1fe62b);
+        
+
+        marker_339615f7598f45e5bc4f7539460e1431.bindPopup(popup_e209c15a48a644faa088df073b6b6d90)
+        ;
+
+        
+    
+    
+            var marker_a5c7678f55de4fa2b5b95d9f9c50fa3c = L.marker(
+                [41.8500284, -88.3125738],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_330a0433d8aa45ec9556bbddfdd8c60f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5c7678f55de4fa2b5b95d9f9c50fa3c.setIcon(icon_330a0433d8aa45ec9556bbddfdd8c60f);
+        
+    
+        var popup_a0638ef4ceab4fce9a58e083c28712d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97e0f6f6c42b4693ae71f761e339905a = $(`<div id="html_97e0f6f6c42b4693ae71f761e339905a" style="width: 100.0%; height: 100.0%;">Name: Nigel Lockyer, Username: @Nigel_Lockyer</div>`)[0];
+            popup_a0638ef4ceab4fce9a58e083c28712d5.setContent(html_97e0f6f6c42b4693ae71f761e339905a);
+        
+
+        marker_a5c7678f55de4fa2b5b95d9f9c50fa3c.bindPopup(popup_a0638ef4ceab4fce9a58e083c28712d5)
+        ;
+
+        
+    
+    
+            var marker_ec527bc7e9c64c02b9a5703fc955b0e8 = L.marker(
+                [58.5959044, 23.21964608602439],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_bba3373c9d484867837b9d0934016bd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec527bc7e9c64c02b9a5703fc955b0e8.setIcon(icon_bba3373c9d484867837b9d0934016bd2);
+        
+    
+        var popup_38d43fcfc138409ea7329a3ffa50d6b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f427e82f2ea49bf9fb16ad3512c27d4 = $(`<div id="html_6f427e82f2ea49bf9fb16ad3512c27d4" style="width: 100.0%; height: 100.0%;">Name: じゃがりきん, Username: @jagarikin</div>`)[0];
+            popup_38d43fcfc138409ea7329a3ffa50d6b5.setContent(html_6f427e82f2ea49bf9fb16ad3512c27d4);
+        
+
+        marker_ec527bc7e9c64c02b9a5703fc955b0e8.bindPopup(popup_38d43fcfc138409ea7329a3ffa50d6b5)
+        ;
+
+        
+    
+    
+            var marker_6276f0722a8645849a12b7ba8efdf4fd = L.marker(
+                [34.2331373, -102.4107493],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_8af42082330c4e19ac8b471f005b3ff8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6276f0722a8645849a12b7ba8efdf4fd.setIcon(icon_8af42082330c4e19ac8b471f005b3ff8);
+        
+    
+        var popup_b8b91f9b7f864683bb06129ffc9eec9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_075fc9cbc7c04cf0a20a52ba5919944c = $(`<div id="html_075fc9cbc7c04cf0a20a52ba5919944c" style="width: 100.0%; height: 100.0%;">Name: Victor Glover, Username: @AstroVicGlover</div>`)[0];
+            popup_b8b91f9b7f864683bb06129ffc9eec9b.setContent(html_075fc9cbc7c04cf0a20a52ba5919944c);
+        
+
+        marker_6276f0722a8645849a12b7ba8efdf4fd.bindPopup(popup_b8b91f9b7f864683bb06129ffc9eec9b)
+        ;
+
+        
+    
+    
+            var marker_e0d2d33fe71d4357b36a664f813f2462 = L.marker(
+                [31.2322758, 121.4692071],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_1177a56693c0497db428ce547017d97b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0d2d33fe71d4357b36a664f813f2462.setIcon(icon_1177a56693c0497db428ce547017d97b);
+        
+    
+        var popup_02be5bca8cf94d3d89737a8adcffb3e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa374bee6cf8406a9978f01a55988a9d = $(`<div id="html_fa374bee6cf8406a9978f01a55988a9d" style="width: 100.0%; height: 100.0%;">Name: Tesla Greater China, Username: @teslacn</div>`)[0];
+            popup_02be5bca8cf94d3d89737a8adcffb3e2.setContent(html_fa374bee6cf8406a9978f01a55988a9d);
+        
+
+        marker_e0d2d33fe71d4357b36a664f813f2462.bindPopup(popup_02be5bca8cf94d3d89737a8adcffb3e2)
+        ;
+
+        
+    
+    
+            var marker_796e188ed03f4688bcd6a1e3630c673b = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_d2130ae75d8942718c4852a8d895b098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_796e188ed03f4688bcd6a1e3630c673b.setIcon(icon_d2130ae75d8942718c4852a8d895b098);
+        
+    
+        var popup_71619cdd495e48a591fcea78b2cc83cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94dd4264958d4054a922e234f454ee59 = $(`<div id="html_94dd4264958d4054a922e234f454ee59" style="width: 100.0%; height: 100.0%;">Name: DeepMind, Username: @DeepMind</div>`)[0];
+            popup_71619cdd495e48a591fcea78b2cc83cd.setContent(html_94dd4264958d4054a922e234f454ee59);
+        
+
+        marker_796e188ed03f4688bcd6a1e3630c673b.bindPopup(popup_71619cdd495e48a591fcea78b2cc83cd)
+        ;
+
+        
+    
+    
+            var marker_d620804c2ea34020b18a497a0011d882 = L.marker(
+                [-28.1429648, -54.7500725],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_3e0ba6076c0a4f90aa3cc2322fcfaea0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d620804c2ea34020b18a497a0011d882.setIcon(icon_3e0ba6076c0a4f90aa3cc2322fcfaea0);
+        
+    
+        var popup_64e77c97cc37452292ab5d791e0e0c9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb9bdee50ee146a3a8c9472d812b5621 = $(`<div id="html_eb9bdee50ee146a3a8c9472d812b5621" style="width: 100.0%; height: 100.0%;">Name: Ashlee Vance, Username: @ashleevance</div>`)[0];
+            popup_64e77c97cc37452292ab5d791e0e0c9d.setContent(html_eb9bdee50ee146a3a8c9472d812b5621);
+        
+
+        marker_d620804c2ea34020b18a497a0011d882.bindPopup(popup_64e77c97cc37452292ab5d791e0e0c9d)
+        ;
+
+        
+    
+    
+            var marker_cd9baadccb9e45079d5c81a82b85f898 = L.marker(
+                [32.7762719, -96.7968559],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_1cb393fa4b4447cb8f3d8d43ca3edb91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd9baadccb9e45079d5c81a82b85f898.setIcon(icon_1cb393fa4b4447cb8f3d8d43ca3edb91);
+        
+    
+        var popup_9956ac5f601f401387e6886afff21eff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e9a888c9766475199701346935bdabf = $(`<div id="html_9e9a888c9766475199701346935bdabf" style="width: 100.0%; height: 100.0%;">Name: John Carmack, Username: @ID_AA_Carmack</div>`)[0];
+            popup_9956ac5f601f401387e6886afff21eff.setContent(html_9e9a888c9766475199701346935bdabf);
+        
+
+        marker_cd9baadccb9e45079d5c81a82b85f898.bindPopup(popup_9956ac5f601f401387e6886afff21eff)
+        ;
+
+        
+    
+    
+            var marker_df452b8676664951b7b1a562b04761af = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_03b2476d52ac40b0ac879f8b76c5e6cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df452b8676664951b7b1a562b04761af.setIcon(icon_03b2476d52ac40b0ac879f8b76c5e6cc);
+        
+    
+        var popup_1d3c73b47c9c4632997a94d949456fb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c37813a84ea41e5b8db8ada57d67591 = $(`<div id="html_7c37813a84ea41e5b8db8ada57d67591" style="width: 100.0%; height: 100.0%;">Name: Talulah Riley, Username: @TalulahRiley</div>`)[0];
+            popup_1d3c73b47c9c4632997a94d949456fb8.setContent(html_7c37813a84ea41e5b8db8ada57d67591);
+        
+
+        marker_df452b8676664951b7b1a562b04761af.bindPopup(popup_1d3c73b47c9c4632997a94d949456fb8)
+        ;
+
+        
+    
+    
+            var marker_0e4d32e3da634210ad68fe1910264050 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_2996f281d1b64101bb9bee0c92521a1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e4d32e3da634210ad68fe1910264050.setIcon(icon_2996f281d1b64101bb9bee0c92521a1c);
+        
+    
+        var popup_90f2c073e58346e3ba916b8edbe9b623 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e944aecd0f904c1c95153168a77db538 = $(`<div id="html_e944aecd0f904c1c95153168a77db538" style="width: 100.0%; height: 100.0%;">Name: Marques Brownlee, Username: @MKBHD</div>`)[0];
+            popup_90f2c073e58346e3ba916b8edbe9b623.setContent(html_e944aecd0f904c1c95153168a77db538);
+        
+
+        marker_0e4d32e3da634210ad68fe1910264050.bindPopup(popup_90f2c073e58346e3ba916b8edbe9b623)
+        ;
+
+        
+    
+    
+            var marker_8d2e40ba8d624d60b6d15242f910a9e8 = L.marker(
+                [41.9216734, -93.3122705],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_34fc338ca2f847fb8cf80345105af82e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d2e40ba8d624d60b6d15242f910a9e8.setIcon(icon_34fc338ca2f847fb8cf80345105af82e);
+        
+    
+        var popup_f2bab2d4eded4b5cacd70df2b9a6692b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01dc10a3f33842d6a6fa73014e8b49a9 = $(`<div id="html_01dc10a3f33842d6a6fa73014e8b49a9" style="width: 100.0%; height: 100.0%;">Name: Everyday Astronaut, Username: @Erdayastronaut</div>`)[0];
+            popup_f2bab2d4eded4b5cacd70df2b9a6692b.setContent(html_01dc10a3f33842d6a6fa73014e8b49a9);
+        
+
+        marker_8d2e40ba8d624d60b6d15242f910a9e8.bindPopup(popup_f2bab2d4eded4b5cacd70df2b9a6692b)
+        ;
+
+        
+    
+    
+            var marker_dac93b7c06394fed8703b9419a905e44 = L.marker(
+                [33.988334949999995, -118.46152716615018],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_f4c4f339c059411aa1177a26a6f9e444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dac93b7c06394fed8703b9419a905e44.setIcon(icon_f4c4f339c059411aa1177a26a6f9e444);
+        
+    
+        var popup_57e1d159f78f4e29b966ed035d1011d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62560475cf3e49ce84222bc0b93cefc5 = $(`<div id="html_62560475cf3e49ce84222bc0b93cefc5" style="width: 100.0%; height: 100.0%;">Name: Brett Winton, Username: @wintonARK</div>`)[0];
+            popup_57e1d159f78f4e29b966ed035d1011d2.setContent(html_62560475cf3e49ce84222bc0b93cefc5);
+        
+
+        marker_dac93b7c06394fed8703b9419a905e44.bindPopup(popup_57e1d159f78f4e29b966ed035d1011d2)
+        ;
+
+        
+    
+    
+            var marker_3566f3e26e1e4fcda182723e2be03171 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_87e182639313417894b16344b037c5cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3566f3e26e1e4fcda182723e2be03171.setIcon(icon_87e182639313417894b16344b037c5cf);
+        
+    
+        var popup_392104876a8044f6b7f2a8c7a4caa24a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89674ae17f17473f80d27f7d31d3c1b1 = $(`<div id="html_89674ae17f17473f80d27f7d31d3c1b1" style="width: 100.0%; height: 100.0%;">Name: Tasha Keeney, Username: @TashaARK</div>`)[0];
+            popup_392104876a8044f6b7f2a8c7a4caa24a.setContent(html_89674ae17f17473f80d27f7d31d3c1b1);
+        
+
+        marker_3566f3e26e1e4fcda182723e2be03171.bindPopup(popup_392104876a8044f6b7f2a8c7a4caa24a)
+        ;
+
+        
+    
+    
+            var marker_c5383c5d08944a33bd8b9f275a99fd32 = L.marker(
+                [3.5000086, -73.0000086],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_f1106e6181cc45f787383be68b2d318a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5383c5d08944a33bd8b9f275a99fd32.setIcon(icon_f1106e6181cc45f787383be68b2d318a);
+        
+    
+        var popup_98b9b75d99d3496cbaa7ac31926ced99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a593a381b07749caabecfda3bad80ea5 = $(`<div id="html_a593a381b07749caabecfda3bad80ea5" style="width: 100.0%; height: 100.0%;">Name: Archillect, Username: @archillect</div>`)[0];
+            popup_98b9b75d99d3496cbaa7ac31926ced99.setContent(html_a593a381b07749caabecfda3bad80ea5);
+        
+
+        marker_c5383c5d08944a33bd8b9f275a99fd32.bindPopup(popup_98b9b75d99d3496cbaa7ac31926ced99)
+        ;
+
+        
+    
+    
+            var marker_17e8176214fb4f0989547a7bb39e13c6 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_bcb0999546ff450c9fec79d2747c44e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17e8176214fb4f0989547a7bb39e13c6.setIcon(icon_bcb0999546ff450c9fec79d2747c44e8);
+        
+    
+        var popup_e7a1b33b892747709655029ff883e300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da6e2ccbbeee434eb8d519776534f02e = $(`<div id="html_da6e2ccbbeee434eb8d519776534f02e" style="width: 100.0%; height: 100.0%;">Name: Sam Korus, Username: @skorusARK</div>`)[0];
+            popup_e7a1b33b892747709655029ff883e300.setContent(html_da6e2ccbbeee434eb8d519776534f02e);
+        
+
+        marker_17e8176214fb4f0989547a7bb39e13c6.bindPopup(popup_e7a1b33b892747709655029ff883e300)
+        ;
+
+        
+    
+    
+            var marker_adc9414b3393420a82496dde06dc8f9e = L.marker(
+                [36.1556805, -95.9929113],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_6b44536341f444afbb933e540fda31c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adc9414b3393420a82496dde06dc8f9e.setIcon(icon_6b44536341f444afbb933e540fda31c4);
+        
+    
+        var popup_350ee342c2a740e9aef4ec486b645e99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76459b29aa7e426d981dbb7f67d4c5ce = $(`<div id="html_76459b29aa7e426d981dbb7f67d4c5ce" style="width: 100.0%; height: 100.0%;">Name: Jim Bridenstine, Username: @JimBridenstine</div>`)[0];
+            popup_350ee342c2a740e9aef4ec486b645e99.setContent(html_76459b29aa7e426d981dbb7f67d4c5ce);
+        
+
+        marker_adc9414b3393420a82496dde06dc8f9e.bindPopup(popup_350ee342c2a740e9aef4ec486b645e99)
+        ;
+
+        
+    
+    
+            var marker_96d158f9b8094481ab76eb983edb3728 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_eecce24d7c28422e81afc74a585a512e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96d158f9b8094481ab76eb983edb3728.setIcon(icon_eecce24d7c28422e81afc74a585a512e);
+        
+    
+        var popup_d121a37f6ef7403ab19646159e3759ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_767e798bab3f47bdbc7d2fc25afd2e72 = $(`<div id="html_767e798bab3f47bdbc7d2fc25afd2e72" style="width: 100.0%; height: 100.0%;">Name: Gen. Jay Raymond, Username: @SpaceForceCSO</div>`)[0];
+            popup_d121a37f6ef7403ab19646159e3759ad.setContent(html_767e798bab3f47bdbc7d2fc25afd2e72);
+        
+
+        marker_96d158f9b8094481ab76eb983edb3728.bindPopup(popup_d121a37f6ef7403ab19646159e3759ad)
+        ;
+
+        
+    
+    
+            var marker_3ff89a8a08414788a8a5279af4450b59 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_1dc5a71c043a4b78bbcdd6a11666dd9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ff89a8a08414788a8a5279af4450b59.setIcon(icon_1dc5a71c043a4b78bbcdd6a11666dd9b);
+        
+    
+        var popup_0363b35f8df64bf79b3c0b26121ffc1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e1e172ae384851be92d0dab07d4f78 = $(`<div id="html_59e1e172ae384851be92d0dab07d4f78" style="width: 100.0%; height: 100.0%;">Name: United States Space Force, Username: @SpaceForceDoD</div>`)[0];
+            popup_0363b35f8df64bf79b3c0b26121ffc1c.setContent(html_59e1e172ae384851be92d0dab07d4f78);
+        
+
+        marker_3ff89a8a08414788a8a5279af4450b59.bindPopup(popup_0363b35f8df64bf79b3c0b26121ffc1c)
+        ;
+
+        
+    
+    
+            var marker_007a321102054096a16d8d805b502977 = L.marker(
+                [37.7790262, -122.419906],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_0fcafa3513f74d65853df31b62ebe92d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_007a321102054096a16d8d805b502977.setIcon(icon_0fcafa3513f74d65853df31b62ebe92d);
+        
+    
+        var popup_78163c53d30b4f539ed86e9afdbff39f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e506115ab694fe389d3e3b6ab265828 = $(`<div id="html_1e506115ab694fe389d3e3b6ab265828" style="width: 100.0%; height: 100.0%;">Name: Shivon Zilis, Username: @shivon</div>`)[0];
+            popup_78163c53d30b4f539ed86e9afdbff39f.setContent(html_1e506115ab694fe389d3e3b6ab265828);
+        
+
+        marker_007a321102054096a16d8d805b502977.bindPopup(popup_78163c53d30b4f539ed86e9afdbff39f)
+        ;
+
+        
+    
+    
+            var marker_44c6e82fdd2540f7a26758383a30069f = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_275d7a6f6dc742b88b43be125ecd90d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44c6e82fdd2540f7a26758383a30069f.setIcon(icon_275d7a6f6dc742b88b43be125ecd90d6);
+        
+    
+        var popup_f2b56310971b44cbab453e491cf1a99e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2089c6eb1f04ec5b40285c06ff0f85f = $(`<div id="html_b2089c6eb1f04ec5b40285c06ff0f85f" style="width: 100.0%; height: 100.0%;">Name: Neil deGrasse Tyson, Username: @neiltyson</div>`)[0];
+            popup_f2b56310971b44cbab453e491cf1a99e.setContent(html_b2089c6eb1f04ec5b40285c06ff0f85f);
+        
+
+        marker_44c6e82fdd2540f7a26758383a30069f.bindPopup(popup_f2b56310971b44cbab453e491cf1a99e)
+        ;
+
+        
+    
+    
+            var marker_885bcaf9b8c84e58abad4fb61a450562 = L.marker(
+                [38.9074322, -77.0350922],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_bfbd919f578d4b26bd3bb17840f0f2a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_885bcaf9b8c84e58abad4fb61a450562.setIcon(icon_bfbd919f578d4b26bd3bb17840f0f2a0);
+        
+    
+        var popup_6183f5e3d4e748ec9e2964f1a652d104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6349bf00e3a843a4920c786608b394d3 = $(`<div id="html_6349bf00e3a843a4920c786608b394d3" style="width: 100.0%; height: 100.0%;">Name: Brian Berger, Username: @Brian_J_Berger</div>`)[0];
+            popup_6183f5e3d4e748ec9e2964f1a652d104.setContent(html_6349bf00e3a843a4920c786608b394d3);
+        
+
+        marker_885bcaf9b8c84e58abad4fb61a450562.bindPopup(popup_6183f5e3d4e748ec9e2964f1a652d104)
+        ;
+
+        
+    
+    
+            var marker_3cb7aec28d794ace8498e0b1ab098b7e = L.marker(
+                [27.7703796, -82.6695085],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_e83bc0ad2e2240dd9643980894cbe538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cb7aec28d794ace8498e0b1ab098b7e.setIcon(icon_e83bc0ad2e2240dd9643980894cbe538);
+        
+    
+        var popup_c75b7620470743d0aab24c08cf9e4000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de7d403178fc4574bd3f5afd69cc0cc9 = $(`<div id="html_de7d403178fc4574bd3f5afd69cc0cc9" style="width: 100.0%; height: 100.0%;">Name: Cathie Wood, Username: @CathieDWood</div>`)[0];
+            popup_c75b7620470743d0aab24c08cf9e4000.setContent(html_de7d403178fc4574bd3f5afd69cc0cc9);
+        
+
+        marker_3cb7aec28d794ace8498e0b1ab098b7e.bindPopup(popup_c75b7620470743d0aab24c08cf9e4000)
+        ;
+
+        
+    
+    
+            var marker_dc094589fd3b44a3906348df03e7d898 = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_87325d8f7b0b4bb888b1bddacebc8672 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc094589fd3b44a3906348df03e7d898.setIcon(icon_87325d8f7b0b4bb888b1bddacebc8672);
+        
+    
+        var popup_f6e0afaefc934dbe9c0fd9c8287ab7e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2db1b869fd954046a6c94f7d2e965336 = $(`<div id="html_2db1b869fd954046a6c94f7d2e965336" style="width: 100.0%; height: 100.0%;">Name: BBC Science News, Username: @BBCScienceNews</div>`)[0];
+            popup_f6e0afaefc934dbe9c0fd9c8287ab7e9.setContent(html_2db1b869fd954046a6c94f7d2e965336);
+        
+
+        marker_dc094589fd3b44a3906348df03e7d898.bindPopup(popup_f6e0afaefc934dbe9c0fd9c8287ab7e9)
+        ;
+
+        
+    
+    
+            var marker_82efb79e3fe64651bcfb4888b5a6c81d = L.marker(
+                [56.5407294, -3.6690659],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_e9a9890436ab42b5a6eb531e53d50cd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82efb79e3fe64651bcfb4888b5a6c81d.setIcon(icon_e9a9890436ab42b5a6eb531e53d50cd7);
+        
+    
+        var popup_56604bce5bce428b999c2ef7f726ca82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc541e896d04c75b3f68bc0c353b3c4 = $(`<div id="html_1bc541e896d04c75b3f68bc0c353b3c4" style="width: 100.0%; height: 100.0%;">Name: The Stoic Emperor, Username: @TheStoicEmperor</div>`)[0];
+            popup_56604bce5bce428b999c2ef7f726ca82.setContent(html_1bc541e896d04c75b3f68bc0c353b3c4);
+        
+
+        marker_82efb79e3fe64651bcfb4888b5a6c81d.bindPopup(popup_56604bce5bce428b999c2ef7f726ca82)
+        ;
+
+        
+    
+    
+            var marker_e09a8d46cf304228a0624c7034795c47 = L.marker(
+                [40.7308619, -73.5990015],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_c9bbb30dc3b941198abec6d92cb28bb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e09a8d46cf304228a0624c7034795c47.setIcon(icon_c9bbb30dc3b941198abec6d92cb28bb1);
+        
+    
+        var popup_c0a6aa8857e648b5a390e6579371ade1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9612aed394944ae7b1e9dd01f4bb78f3 = $(`<div id="html_9612aed394944ae7b1e9dd01f4bb78f3" style="width: 100.0%; height: 100.0%;">Name: Dan Carlin, Username: @HardcoreHistory</div>`)[0];
+            popup_c0a6aa8857e648b5a390e6579371ade1.setContent(html_9612aed394944ae7b1e9dd01f4bb78f3);
+        
+
+        marker_e09a8d46cf304228a0624c7034795c47.bindPopup(popup_c0a6aa8857e648b5a390e6579371ade1)
+        ;
+
+        
+    
+    
+            var marker_988f52010152403e87722a261eb17401 = L.marker(
+                [34.0980031, -118.329523],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_ba0a1959bb0041f0bebc01307c7f4524 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_988f52010152403e87722a261eb17401.setIcon(icon_ba0a1959bb0041f0bebc01307c7f4524);
+        
+    
+        var popup_df0d935b03ed42b0b5f7978ed6d6e4aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b6094624c3d4edab7d65cd910d911f7 = $(`<div id="html_0b6094624c3d4edab7d65cd910d911f7" style="width: 100.0%; height: 100.0%;">Name: Jon Favreau, Username: @Jon_Favreau</div>`)[0];
+            popup_df0d935b03ed42b0b5f7978ed6d6e4aa.setContent(html_0b6094624c3d4edab7d65cd910d911f7);
+        
+
+        marker_988f52010152403e87722a261eb17401.bindPopup(popup_df0d935b03ed42b0b5f7978ed6d6e4aa)
+        ;
+
+        
+    
+    
+            var marker_34ad0797c53f4ac086ad71dc271404f0 = L.marker(
+                [37.4519671, -122.1779927],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_d936d29a91ec46c88749c9faad90be99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34ad0797c53f4ac086ad71dc271404f0.setIcon(icon_d936d29a91ec46c88749c9faad90be99);
+        
+    
+        var popup_02499c0e5d624e0aa7f0aab40210e2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9efb447a6ce5445598a2e56435aab5df = $(`<div id="html_9efb447a6ce5445598a2e56435aab5df" style="width: 100.0%; height: 100.0%;">Name: Marc Andreessen, Username: @pmarca</div>`)[0];
+            popup_02499c0e5d624e0aa7f0aab40210e2d1.setContent(html_9efb447a6ce5445598a2e56435aab5df);
+        
+
+        marker_34ad0797c53f4ac086ad71dc271404f0.bindPopup(popup_02499c0e5d624e0aa7f0aab40210e2d1)
+        ;
+
+        
+    
+    
+            var marker_e317b0a973f042fa9dea30164a301e9c = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_cc6e1820bff4484c894e679f417731a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e317b0a973f042fa9dea30164a301e9c.setIcon(icon_cc6e1820bff4484c894e679f417731a0);
+        
+    
+        var popup_35cc3b1457d043128f3fffd5a1609eb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3eb696d720a4be1947041a242193912 = $(`<div id="html_a3eb696d720a4be1947041a242193912" style="width: 100.0%; height: 100.0%;">Name: World of Engineering, Username: @engineers_feed</div>`)[0];
+            popup_35cc3b1457d043128f3fffd5a1609eb6.setContent(html_a3eb696d720a4be1947041a242193912);
+        
+
+        marker_e317b0a973f042fa9dea30164a301e9c.bindPopup(popup_35cc3b1457d043128f3fffd5a1609eb6)
+        ;
+
+        
+    
+    
+            var marker_0101e48d42554a4ebb501d7ae2dedc2b = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_21ce37a7ab724318a104b30bc263c6a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0101e48d42554a4ebb501d7ae2dedc2b.setIcon(icon_21ce37a7ab724318a104b30bc263c6a1);
+        
+    
+        var popup_56fb1aed0d0b4511a82f738e5800ab5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db4ad6507ff34df0a0afe046b1619d88 = $(`<div id="html_db4ad6507ff34df0a0afe046b1619d88" style="width: 100.0%; height: 100.0%;">Name: BBC Comedy, Username: @bbccomedy</div>`)[0];
+            popup_56fb1aed0d0b4511a82f738e5800ab5d.setContent(html_db4ad6507ff34df0a0afe046b1619d88);
+        
+
+        marker_0101e48d42554a4ebb501d7ae2dedc2b.bindPopup(popup_56fb1aed0d0b4511a82f738e5800ab5d)
+        ;
+
+        
+    
+    
+            var marker_2ca1247d6388424fb7ae8003c310581a = L.marker(
+                [42.3602534, -71.0582912],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_2b7f06eb2c204e3292fa8bc5dc8cfb17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ca1247d6388424fb7ae8003c310581a.setIcon(icon_2b7f06eb2c204e3292fa8bc5dc8cfb17);
+        
+    
+        var popup_c4e5bafbb0eb4bb09cb26b2a3c49ad28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_638f71b6470445629a69ea70c80901da = $(`<div id="html_638f71b6470445629a69ea70c80901da" style="width: 100.0%; height: 100.0%;">Name: Ken Levine, Username: @levine</div>`)[0];
+            popup_c4e5bafbb0eb4bb09cb26b2a3c49ad28.setContent(html_638f71b6470445629a69ea70c80901da);
+        
+
+        marker_2ca1247d6388424fb7ae8003c310581a.bindPopup(popup_c4e5bafbb0eb4bb09cb26b2a3c49ad28)
+        ;
+
+        
+    
+    
+            var marker_c34afadd250542ba908e415fa788f519 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_4219618d18224f28a0b444b7ff3aa2d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c34afadd250542ba908e415fa788f519.setIcon(icon_4219618d18224f28a0b444b7ff3aa2d6);
+        
+    
+        var popup_a33bd2eb2a2b40f5a60eef6e0e990205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_971bf51b9abd450f9212eb721d1bec94 = $(`<div id="html_971bf51b9abd450f9212eb721d1bec94" style="width: 100.0%; height: 100.0%;">Name: Maye Musk, Username: @mayemusk</div>`)[0];
+            popup_a33bd2eb2a2b40f5a60eef6e0e990205.setContent(html_971bf51b9abd450f9212eb721d1bec94);
+        
+
+        marker_c34afadd250542ba908e415fa788f519.bindPopup(popup_a33bd2eb2a2b40f5a60eef6e0e990205)
+        ;
+
+        
+    
+    
+            var marker_70b47f35a22f4e0f83c550f557baa641 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_d1ded616a92f41cb9d9048d0454b56da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70b47f35a22f4e0f83c550f557baa641.setIcon(icon_d1ded616a92f41cb9d9048d0454b56da);
+        
+    
+        var popup_61db3c4502484c3495a40517d08b7625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca581db47a2f4feabfd89d7d95d64b1f = $(`<div id="html_ca581db47a2f4feabfd89d7d95d64b1f" style="width: 100.0%; height: 100.0%;">Name: Lisa Joy, Username: @lisajoynolan</div>`)[0];
+            popup_61db3c4502484c3495a40517d08b7625.setContent(html_ca581db47a2f4feabfd89d7d95d64b1f);
+        
+
+        marker_70b47f35a22f4e0f83c550f557baa641.bindPopup(popup_61db3c4502484c3495a40517d08b7625)
+        ;
+
+        
+    
+    
+            var marker_90ccfe170ba74b27a37633ccd2aee185 = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_439a6c7accc74a44af48437d4dec4523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90ccfe170ba74b27a37633ccd2aee185.setIcon(icon_439a6c7accc74a44af48437d4dec4523);
+        
+    
+        var popup_51887aa599ec46e281d25e2a4cfd6ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5b4f7929ccc4903a1e9717e8be3c1f5 = $(`<div id="html_b5b4f7929ccc4903a1e9717e8be3c1f5" style="width: 100.0%; height: 100.0%;">Name: BBC Breaking News, Username: @BBCBreaking</div>`)[0];
+            popup_51887aa599ec46e281d25e2a4cfd6ae6.setContent(html_b5b4f7929ccc4903a1e9717e8be3c1f5);
+        
+
+        marker_90ccfe170ba74b27a37633ccd2aee185.bindPopup(popup_51887aa599ec46e281d25e2a4cfd6ae6)
+        ;
+
+        
+    
+    
+            var marker_6e107a980fcd4208a41466994bce388c = L.marker(
+                [47.6038321, -122.3300624],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_36b06a4a2fed47e3ae98df6cd2e40582 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e107a980fcd4208a41466994bce388c.setIcon(icon_36b06a4a2fed47e3ae98df6cd2e40582);
+        
+    
+        var popup_e26aeba8b1b44e7aa38f3d664a26a033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc8d22dc2dec4866bb20046d57f6727d = $(`<div id="html_dc8d22dc2dec4866bb20046d57f6727d" style="width: 100.0%; height: 100.0%;">Name: GeekWire, Username: @geekwire</div>`)[0];
+            popup_e26aeba8b1b44e7aa38f3d664a26a033.setContent(html_dc8d22dc2dec4866bb20046d57f6727d);
+        
+
+        marker_6e107a980fcd4208a41466994bce388c.bindPopup(popup_e26aeba8b1b44e7aa38f3d664a26a033)
+        ;
+
+        
+    
+    
+            var marker_772def9685694e99911def0e852ba6a7 = L.marker(
+                [36.88151515, -76.35944743755115],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_b4193b1db30e4c879ffb68dfa584db5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_772def9685694e99911def0e852ba6a7.setIcon(icon_b4193b1db30e4c879ffb68dfa584db5d);
+        
+    
+        var popup_1a4252087bc841aa9c04a3ec53f68958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37bd564cb9fb4a8388293e8c27aae8cd = $(`<div id="html_37bd564cb9fb4a8388293e8c27aae8cd" style="width: 100.0%; height: 100.0%;">Name: SwiftOnSecurity, Username: @SwiftOnSecurity</div>`)[0];
+            popup_1a4252087bc841aa9c04a3ec53f68958.setContent(html_37bd564cb9fb4a8388293e8c27aae8cd);
+        
+
+        marker_772def9685694e99911def0e852ba6a7.bindPopup(popup_1a4252087bc841aa9c04a3ec53f68958)
+        ;
+
+        
+    
+    
+            var marker_8375610fe1a94fd4b3d808b8631575ba = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_323f693f88b642589613efcc4ad3c614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8375610fe1a94fd4b3d808b8631575ba.setIcon(icon_323f693f88b642589613efcc4ad3c614);
+        
+    
+        var popup_3bc2bd956f7b42cdb7c0adfddfa94aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fe25bba055743758c736d695122c05b = $(`<div id="html_0fe25bba055743758c736d695122c05b" style="width: 100.0%; height: 100.0%;">Name: CGP Grey 🐝, Username: @cgpgrey</div>`)[0];
+            popup_3bc2bd956f7b42cdb7c0adfddfa94aef.setContent(html_0fe25bba055743758c736d695122c05b);
+        
+
+        marker_8375610fe1a94fd4b3d808b8631575ba.bindPopup(popup_3bc2bd956f7b42cdb7c0adfddfa94aef)
+        ;
+
+        
+    
+    
+            var marker_22ed42a9b745412887e42a386cf512b3 = L.marker(
+                [34.1476452, -118.1444779],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_48ff5f232aec43c297749c15b43b0401 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22ed42a9b745412887e42a386cf512b3.setIcon(icon_48ff5f232aec43c297749c15b43b0401);
+        
+    
+        var popup_aeff89a6dd234c2681c3e63fca686eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a58236877a864cdf90163686cfe2232d = $(`<div id="html_a58236877a864cdf90163686cfe2232d" style="width: 100.0%; height: 100.0%;">Name: NASA JPL, Username: @NASAJPL</div>`)[0];
+            popup_aeff89a6dd234c2681c3e63fca686eb7.setContent(html_a58236877a864cdf90163686cfe2232d);
+        
+
+        marker_22ed42a9b745412887e42a386cf512b3.bindPopup(popup_aeff89a6dd234c2681c3e63fca686eb7)
+        ;
+
+        
+    
+    
+            var marker_c3f4586ddc564cb3a09e5baba4dc125a = L.marker(
+                [36.1758533, -115.177647],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_3891d616e7404278aa70d1389f0207e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3f4586ddc564cb3a09e5baba4dc125a.setIcon(icon_3891d616e7404278aa70d1389f0207e9);
+        
+    
+        var popup_c3f80b9fafad4091b85ff4cbcedc22dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e4cf62385e84f8cbeaeabc605284036 = $(`<div id="html_6e4cf62385e84f8cbeaeabc605284036" style="width: 100.0%; height: 100.0%;">Name: The Boring Company, Username: @boringcompany</div>`)[0];
+            popup_c3f80b9fafad4091b85ff4cbcedc22dc.setContent(html_6e4cf62385e84f8cbeaeabc605284036);
+        
+
+        marker_c3f4586ddc564cb3a09e5baba4dc125a.bindPopup(popup_c3f80b9fafad4091b85ff4cbcedc22dc)
+        ;
+
+        
+    
+    
+            var marker_189f4f5014ac4b80bb823cca00229c38 = L.marker(
+                [33.9188589, -118.3483256],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_6f231e3d012c47bdaf7ea92b288d4a5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_189f4f5014ac4b80bb823cca00229c38.setIcon(icon_6f231e3d012c47bdaf7ea92b288d4a5a);
+        
+    
+        var popup_a266ba0975a943a3bfbf3682af32e22c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ad5bef0f9f4970ac203d2f5d373cc2 = $(`<div id="html_29ad5bef0f9f4970ac203d2f5d373cc2" style="width: 100.0%; height: 100.0%;">Name: Hyperloop, Username: @Hyperloop</div>`)[0];
+            popup_a266ba0975a943a3bfbf3682af32e22c.setContent(html_29ad5bef0f9f4970ac203d2f5d373cc2);
+        
+
+        marker_189f4f5014ac4b80bb823cca00229c38.bindPopup(popup_a266ba0975a943a3bfbf3682af32e22c)
+        ;
+
+        
+    
+    
+            var marker_20b0115500234e32a68cb648e6a32a18 = L.marker(
+                [54.7023545, -3.2765753],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_5144d0384317423f9b6ebf0e275e6363 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20b0115500234e32a68cb648e6a32a18.setIcon(icon_5144d0384317423f9b6ebf0e275e6363);
+        
+    
+        var popup_7be88a58cd5744c081d141593e76bb97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3b9bfe3afb44e78832cd1118a79df88 = $(`<div id="html_a3b9bfe3afb44e78832cd1118a79df88" style="width: 100.0%; height: 100.0%;">Name: DEVELOP, Username: @developonline</div>`)[0];
+            popup_7be88a58cd5744c081d141593e76bb97.setContent(html_a3b9bfe3afb44e78832cd1118a79df88);
+        
+
+        marker_20b0115500234e32a68cb648e6a32a18.bindPopup(popup_7be88a58cd5744c081d141593e76bb97)
+        ;
+
+        
+    
+    
+            var marker_f8bdefdb7846439ab43119f3211e472c = L.marker(
+                [36.3613705, -82.4000853],
+                {}
+            ).addTo(map_8e5fc05a68004b829e2b6d4d6d1abfa8);
+        
+    
+            var icon_8565ef1deda54c478f6adae4bcc34803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-circle-user", "iconColor": "yellow", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8bdefdb7846439ab43119f3211e472c.setIcon(icon_8565ef1deda54c478f6adae4bcc34803);
+        
+    
+        var popup_19c14532789e4b02b332391ab3dfb74e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03482a9228144cd5abf4d40c83ad21d6 = $(`<div id="html_03482a9228144cd5abf4d40c83ad21d6" style="width: 100.0%; height: 100.0%;">Name: The Hacker News, Username: @TheHackersNews</div>`)[0];
+            popup_19c14532789e4b02b332391ab3dfb74e.setContent(html_03482a9228144cd5abf4d40c83ad21d6);
+        
+
+        marker_f8bdefdb7846439ab43119f3211e472c.bindPopup(popup_19c14532789e4b02b332391ab3dfb74e)
+        ;
+
+        
+    
+</script>
