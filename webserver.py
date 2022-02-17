@@ -15,6 +15,6 @@ def get_username():
 @app.route('/username', methods=["POST"])
 def render_map():
     web_app.main(request.form.get('username'))
-    return render_template('map.html')
+    return render_template('{}.html'.format(request.form.get('username')))
 if __name__ == '__main__':
     app.run(debug=False, host='127.0.0.1', port=8080)

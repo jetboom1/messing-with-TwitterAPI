@@ -105,18 +105,20 @@ def get_following_users(user_id):
 
 
 def main(zero_username):
-    zero_id, zero_location = username_to_id_and_loc(zero_username)
-    print('Please wait!')
-    following_users = get_following_users(zero_id)
-    if type(zero_location) is not str:
-        main_map.add_child(folium.Marker(location=zero_location, popup='This person is here',
-                                         icon=folium.Icon(color='red', icon_color='blue', icon='home')))
-    for user in following_users:
-        main_map.add_child(folium.Marker(location=user[2], popup="Name: {}, Username: @{}".format(user[1], user[0]),
-                                         icon=folium.Icon(color="green", icon_color="yellow", icon="fa-circle-user")))
-    main_map.save('templates/map.html')
-    print('Done! Check result in /map.html')
-
+    if not os.path.isfile('templates/{}.html'.format(zero_username)):
+        zero_id, zero_location = username_to_id_and_loc(zero_username)
+        print('Please wait!')
+        following_users = get_following_users(zero_id)
+        if type(zero_location) is not str:
+            main_map.add_child(folium.Marker(location=zero_location, popup='This person is here',
+                                             icon=folium.Icon(color='red', icon_color='blue', icon='home')))
+        for user in following_users:
+            main_map.add_child(folium.Marker(location=user[2], popup="Name: {}, Username: @{}".format(user[1], user[0]),
+                                             icon=folium.Icon(color="green", icon_color="yellow", icon="fa-circle-user")))
+        main_map.save('templates/{}.html'.format(zero_username))
+        print('Done! Check result in {}.html'.format(zero_username))
+    else:
+        print('Done! Check result in {}.html'.format(zero_username))
 
 if __name__ == '__main__':
-    main()
+    main('_eugene3012')
